@@ -1,0 +1,72 @@
+{%extends "base.html" %}
+<!--
+Самая мощная и, следовательно, самая сложная часть шаблонизатора Django -
+это наследование шаблонов. Наследование шаблонов позволяет вам создать базовый
+«скелетный» шаблон, который содержит все общие элементы вашего сайта
+и определяет блоки, которые дочерние шаблоны могут переопределить.
+ -->
+
+{% block title %}* DCV * Home{% endblock %}
+
+{% block content %}
+
+    <!-- отображаем содержимое базы по вакансиям-->
+    {% for obj in object_list %}
+
+        <!-- вставляем код КАРТЫ  из Bootstrap и отображаем в ней содержимое базы по вакансиям: link сайта, город, язык прогр.,описание вакансии-->
+
+        <div class="card my-4" style="background-color: #9999FF; color: #EBEBFD;" data-bs-theme="dark"> <!-- my-4 отступ 4 между картами по оси У - по высоте,если заменить на Х- по ширине, но мах5-->
+            <h5 class="card-header">{{obj.title}} | <small>{{obj.timestamp|date:"SHORT_DATE_FORMAT"}}</small></h5>
+            <div class="card-body"style="background-color: #ECEDFF;">
+                <h5 class="card-text" style="color: #9A9AFA;"><p>{{obj.company}}</p></h5>
+
+                <h5 class="card-title" style="color: #808080;"><small>{{obj.language.name}} , {{obj.city.name}} </small></h5>
+
+                    <p class="card-text" style="color: #404040;">{{obj.description}}</p>
+
+                <a class="btn btn-outline-light" style="background-color: #BABAFF;" href="{{obj.url}}" role="button">Подробнее</a>
+
+            </div>
+        </div>
+
+
+<!-- если ничего не найдено поисковиком -->
+    {% empty %}
+
+    <div class="alert alert-warning alert-dismissible fade show col-md-5" style="background-color: #FFFFFF;" role="alert">
+        <strong>К сожалению, по Вашему запросу, ничего не найдено!</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    {% endfor %}
+
+
+
+
+<!-- Вставляем форму поиска Google отправляет запрос через GET, подставляя в Google/Search :
+<form action="https://www.google.com/search">
+  <label for="fcity">Город:</label><br>
+  <input type="text" id="fcity" name="q"><br>
+<label for="flang">Language:</label><br>
+  <input type="text" id="flang" name="q"><br>
+  <input type="submit" value="Submit">
+</form>
+
+--или другой способ Вставляем форму поиска и отправляем невидимый запрос через POST , остальные строчки как выше:
+<form method="POST" action=""> {% csrf_token %}-->
+
+
+<!-- форма поисковика по базе SearchForm: -->
+<div class="row">
+    <div class="col-md-4"> <!--длинна полей в форме поисковика, чем больше, тем длинее -->
+        <form method="GET" action=""><!-- GET -  передаем параметры явно в строку браузера-->
+            <div class="mb-1 form-check">
+                {{form.as_p}} <!-- тут отрисовываем форму поиска   !!! В шаблонах не вызывается функций со скобочками '()'   -->
+                <button type="submit" class="btn btn-outline-secondary">Поиск</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

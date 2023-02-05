@@ -1,0 +1,491 @@
+[
+{
+  "model": "scraping.city",
+  "pk": 4,
+  "fields": {
+    "name": "Киев",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 5,
+  "fields": {
+    "name": "Варшава",
+    "slug": "varshava"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 6,
+  "fields": {
+    "name": "Opole",
+    "slug": "opole"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 7,
+  "fields": {
+    "name": "Берлин",
+    "slug": "berlin"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 8,
+  "fields": {
+    "name": "Вильнюс",
+    "slug": "vilnius"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 9,
+  "fields": {
+    "name": "Вена",
+    "slug": "vena"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 10,
+  "fields": {
+    "name": "Краков",
+    "slug": "krakov"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 11,
+  "fields": {
+    "name": "Минск",
+    "slug": "minsk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 12,
+  "fields": {
+    "name": "Гданьск",
+    "slug": "gdansk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 13,
+  "fields": {
+    "name": "Познань",
+    "slug": "poznan"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 14,
+  "fields": {
+    "name": "Прага",
+    "slug": "praga"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 15,
+  "fields": {
+    "name": "Одесса",
+    "slug": "odessa"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 16,
+  "fields": {
+    "name": "Франкфурт над Майном",
+    "slug": "frankfurt"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 17,
+  "fields": {
+    "name": "Осло",
+    "slug": "oslo"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 3,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 4,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 5,
+  "fields": {
+    "name": "C++",
+    "slug": "c++"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 6,
+  "fields": {
+    "name": "Golang",
+    "slug": "golang"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 7,
+  "fields": {
+    "name": "C",
+    "slug": "c"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 8,
+  "fields": {
+    "name": "Fortran",
+    "slug": "fortran"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 9,
+  "fields": {
+    "name": "Ada",
+    "slug": "ada"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 10,
+  "fields": {
+    "name": "Java Script",
+    "slug": "js"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 11,
+  "fields": {
+    "name": "Rust",
+    "slug": "rust"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 12,
+  "fields": {
+    "name": "Ruby",
+    "slug": "ruby"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 13,
+  "fields": {
+    "name": "Solidity",
+    "slug": "solidity"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 14,
+  "fields": {
+    "name": "Assembler",
+    "slug": "asm"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 15,
+  "fields": {
+    "name": "Kotlin",
+    "slug": "kotlin"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 16,
+  "fields": {
+    "name": "Objective C",
+    "slug": "objc"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 17,
+  "fields": {
+    "name": "Swift",
+    "slug": "swift"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 18,
+  "fields": {
+    "name": "Scala",
+    "slug": "scala"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 19,
+  "fields": {
+    "name": "Curry",
+    "slug": "curry"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 20,
+  "fields": {
+    "name": "Erlang",
+    "slug": "erlang"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 21,
+  "fields": {
+    "name": "Prolog",
+    "slug": "prolog"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 22,
+  "fields": {
+    "name": "Zonnon",
+    "slug": "zonon"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 23,
+  "fields": {
+    "name": "Julia",
+    "slug": "julia"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 24,
+  "fields": {
+    "name": "Component Pascal",
+    "slug": "component pascal"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 25,
+  "fields": {
+    "name": "Haskell",
+    "slug": "haskell"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 26,
+  "fields": {
+    "name": "Mathematica",
+    "slug": "math"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 27,
+  "fields": {
+    "name": "OCaml",
+    "slug": "ocaml"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 28,
+  "fields": {
+    "name": "Cat",
+    "slug": "cat"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 29,
+  "fields": {
+    "name": "Clean",
+    "slug": "clean"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 30,
+  "fields": {
+    "name": "Dylan",
+    "slug": "dylan"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 31,
+  "fields": {
+    "name": "PHP",
+    "slug": "php"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 32,
+  "fields": {
+    "name": "Elm",
+    "slug": "elm"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 33,
+  "fields": {
+    "name": "F#",
+    "slug": "f#"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 34,
+  "fields": {
+    "name": "Hope",
+    "slug": "hope"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 35,
+  "fields": {
+    "name": "J",
+    "slug": "j"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 36,
+  "fields": {
+    "name": "ColdFusion",
+    "slug": "coldfusion"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 37,
+  "fields": {
+    "name": "MATLAB",
+    "slug": "matlab"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 38,
+  "fields": {
+    "name": "Mercury",
+    "slug": "mercury"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 39,
+  "fields": {
+    "name": "C#",
+    "slug": "c#"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 40,
+  "fields": {
+    "name": "Dart",
+    "slug": "dart"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 41,
+  "fields": {
+    "name": "Go!",
+    "slug": "go!"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 1,
+  "fields": {
+    "url": "https://www.work.ua/jobs/4439154/",
+    "title": "Developer (Python, Full Stack)",
+    "company": "Атлас Сервис, ООО",
+    "description": "Наша компанія шукає розробника для роботи у сфері онлайн-продажів. Ви зможете взяти участь у розробці міжнародного маркетплейсу зі зручними функціями для продавців та покупців. Передбачається робота в команді.\r\n\r\nВимоги:\r\n\r\nДосвід комерційної роботи з Python від 1 року\r\nДосвід розробки REST API з використанням Flask\r\nДосвід роботи з ORM (SqlAlchemy), розуміння принципів роботи relationships та оптимізації запитів\r\nЗнання PostgreSQL, вміння писати запити на рівні ORM\r\nРобота із зовнішніми API (XML/JSON)\r\nДосвід у написанні тестів (pytest)\r\nРозуміння принципів міграції БД (Flask-Migrate)\r\nВміння працювати з терміналом (centos/macOS)\r\nАнглійська мова на рівні, достатньому для легкого розуміння документації\r\nGit для використання системи контролю версій\r\nРобота з веб-сокетами\r\nБуде плюсом:\r\n\r\nЗнання Marshmallow, Flask-Smorest (чи аналогів)\r\nДосвід роботи з AWS, бібліотекою boto3\r\nРозуміння роботи CORS\r\nВміння писати складні запити на рівні PostgreSQL\r\nДосвід роботи з PHP / Laravel (для роботи з legacy-кодом)\r\nЗнання основ HTML, CSS/SASS, JS (Vue.js).\r\nДосвід розгортання проекту на linux (centos)\r\nРозуміння основ роботи nginx\r\nУмови роботи\r\n\r\nРобочий день з 9:00 до 18:00 з понеділка по п’ятницю. Овертайм не передбачається. Робота додому не видається.\r\nРобоче місце надається (ОС — macOS).\r\nКомфортний офіс у Солом’янському районі.\r\nГарячі обіди за рахунок компанії\r\nВстановлено тенісний стіл для співробітників\r\nКава-машини з необмеженою кількістю кави протягом дня\r\nЗлагоджена команда\r\nОформлення та оплата лікарняних\r\nКорпоративні заходи",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-01-30"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 2,
+  "fields": {
+    "url": "https://theprotocol.it/szczegoly/praca/junior-java-develoepr-opole,oferta,b9460000-4a0b-8241-5e14-08db03a28216?s=-4682230642&searchId=9c965800-a18e-11ed-8f52-6b211e0de30f",
+    "title": "Junior Java Developer",
+    "company": "Convista Poland",
+    "description": "WYMAGANE\r\nJava\r\nKotlin\r\nJava API\r\nRESTful\r\nKafka\r\nSpring Boot\r\nJunit\r\nSYSTEM OPERACYJNY\r\nWindows\r\nO projekcie\r\nCX\r\nW ramach projektu tworzymy portal w formie aplikacji internetowej wspierającej większość procesów, z których korzysta ubezpieczony. Umożliwia ona, między innymi, rejestrację ubezpieczonego, sprawdzenie statusu polisy ubezpieczeniowej, czy przesyłanie wniosków w formie elektronicznej.\r\nDodatkowo, dzięki temu, że aplikacja powstaje w architekturze Mikroserwisowej, to jesteśmy w stanie tworzyć specyficzne funkcjonalności aplikacji pod wymagania każdego z naszych klientów (placówek). Klient sam decyduje z jakich funkcjonalności chce skorzystać. np. paszporty szczepień robiliśmy tworzymy tylko dla jednej placówki.\r\nFEOP\r\nFEOP jest projektem wewnętrznym. Wszystkie spółki z grupy dążą wprowadzenia jednej platformy IT, która będzie zbierała dane w jednym miejscu, usprawni i usystematyzuje procesy wewnętrzne. W tym celu wdrażamy systemy: SAP S/4HANA, SAP SuccessFactors, Concur i teraz również FEOP.\r\nFEOP jest narzędziem do staffingu osób do projektów. Korzysta z danych wspomnianych wcześniej 3 systemów. Do tej pory informacje o tym: kto jest w jakim projekcie, komu się kończy projekt, kto chce zmienić projekt, na ile % jest przypisany do projektu itd. trzymaliśmy w Excelu.\r\nCelem wprowadzenia FEOP jest centralizacja informacji o pracownikach (ich dostępność, umiejętności, doświadczenie) i projektach, aby móc efektywnie zarządzać osobami w projektach odpowiadając na potrzeby klientów.",
+    "city": 6,
+    "language": 3,
+    "timestamp": "2023-01-31"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 3,
+  "fields": {
+    "url": "https://theprotocol.it/szczegoly/praca/java-developer-warszawa,oferta,d0c90000-29da-9a0a-6ac9-08db036de476?s=-4596379053&searchId=41892430-a191-11ed-8f52-6b211e0de30f",
+    "title": "Java Developer",
+    "company": "Beesafe Sp. z o.o.",
+    "description": "Technologie, których używamy\r\nWYMAGANE\r\nJava\r\nTwój zakres obowiązków\r\nBędziesz rozwijać i integrować nowoczesny system ubezpieczeniowy Guidewire w technologicznym startupie\r\nBędziesz używać najnowocześniejszych narzędzi i technologii w oparciu o rozwiązania chmurowe\r\nBędziesz ściśle współpracować w modelu zwinnym z innymi deweloperami, użytkownikami biznesowymi i inżynierami DevOps\r\nBędziesz mieć dużą samodzielność i istotny wpływ na kierunek rozwoju platformy oraz całej firmy\r\nBędziesz na bieżąco z najlepszymi praktykami wytwarzania oprogramowania\r\nNasze wymagania\r\nZnajomość języka Java i zasad budowania aplikacji webowych\r\nPotrzeba poznawania nowych rozwiązań i technologii\r\nZespołowa współpraca zarówno z deweloperami jak i użytkownikami biznesowymi\r\nRozwiązywanie złożonych problemów przez poszukiwanie zwinnych, nieszablonowych rozwiązań\r\nSwobodna komunikacja w języku angielskim\r\nMile widziane\r\n\r\nDoświadczenie w tworzeniu oprogramowania dla platformy Guidewire i wiesz, co to Gosu 😉\r\nZnajomość architektury mikroserwisowej\r\nDoświadczenie w pracy w metodykach zwinnych SCRUM / Kanban\r\nEntuzjastyczne podejście do przerw kawowych - uwielbiamy nieformalne dyskusje przy kubku ulubionej kawy lub herbaty 😉",
+    "city": 5,
+    "language": 3,
+    "timestamp": "2023-01-31"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 4,
+  "fields": {
+    "url": "https://theprotocol.it/filtry/java;t/1;s/praca/java-cloud-developer-warszawa-chodna-51,oferta,b9460000-4a0b-8241-5ce7-08db036dae6f?s=-4596379053&searchId=f0c1dc80-a191-11ed-8f52-6b211e0de30f",
+    "title": "Java Cloud Developer",
+    "company": "ITConnect Sp. z o.o.",
+    "description": "Technologie, których używamy\r\n\r\nWYMAGANE\r\n\r\nJava\r\nDrools\r\nBash\r\nRed Hat\r\nPostgreSQL\r\nOpenStack\r\nDocker\r\nGoogle Cloud Platform\r\nGitLab\r\nKubernetes\r\nTerraform\r\nMILE WIDZIANE\r\n\r\nSoapUI\r\nJSON\r\nTCP/IP\r\nTLS\r\nSYSTEM OPERACYJNY\r\n\r\nLinux\r\nO projekcie\r\n\r\nZespół, to 18 osób, które doskonale się uzupełniają i rozumieją. Lubimy szczerą i otwartą komunikację budującą wzajemny szacunek i zaufanie. Z sukcesem i odważnie wdrażamy w sieci produkcyjnej własne, autorskie pomysły, konfiguracje oraz rozwiązania, co daje dużo satysfakcji z wykonywanej pracy. Przedstawiony styl pracy jest efektem aktywnego poszerzania swojej wiedzy z zakresu nowych technologii i adoptowanie ich w środowisku. Szukamy osoby która jest chętna do poznawania nowych rozwiązań, chce podnosić swoje kwalifikacje, nie boi się podejmować decyzji oraz nie ma problemu aby wspólnie z zespołem dzielić się swoimi umiejętnościami.\r\nBranża: Telekomunikacyjna\r\nJęzyk komunikacji w projekcie: polski, angielski\r\nTwój zakres obowiązków\r\n\r\nDevelopment aplikacji Java\r\nDevelopment pipeline, IaC\r\nAutomatyzacja procesów, wdrażanie i usprawnienie podejścia DevOps\r\nDefiniowanie KPI/ SLO z Architektami i Product Ownerami\r\nAutomatyczne testowanie\r\nPodnoszenie jakości systemów, procesów aby spełniały wymagania\r\nNasze wymagania\r\n\r\nPraktyczne doświadczenie z następującymi produktami GCP: GKE, CloudBuild, Google Secret Management, Google Cloud Function, Cloud SQL (cloud 3+) i Java with Spring (5+ lat)\r\nDobrze rozumiesz architekturę i budowę systemów informatycznych wykorzystywanych do świadczenia usług w sieciach mobilnych\r\nOtwarcie komunikujesz się z zespołem\r\nDoskonała znajomość mikroserwisów\r\nMasz praktyczną znajomość rozwiązań wirtualizacyjnych: Openstack, Docker\r\nMasz praktyczne doświadczenie w pracy z Red Hat Enterprise Linux\r\nPracowałeś z bazami SQL (Postgres)\r\nZnasz Terraform\r\nDoświadczenie w rozwijaniu Dockerfiles i Kubernetes YAML\r\nMasz elementarną wiedzę na temat usług SOAP, notacji JSON, modelowania procesów BPM, komunikacja TCP/IP, TLS\r\nKomunikujesz się w języku angielskim umożliwiającym pracę z kontrahentami międzynarodowymi\r\nPracowałeś metodami zwinnymi",
+    "city": 5,
+    "language": 3,
+    "timestamp": "2023-01-31"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 5,
+  "fields": {
+    "url": "https://theprotocol.it/szczegoly/praca/junior-c-developer-warszawa-min-ska-25,oferta,cf6c0000-e675-2a1a-1545-08dafe0ed02d?s=-2956836895&searchId=8bfc7a70-a192-11ed-8f52-6b211e0de30f",
+    "title": "Junior C++ Developer",
+    "company": "SPECTRE SOLUTIONS Sp. z o.o.",
+    "description": "Technologie, których używamy\r\nWYMAGANE\r\nC++\r\nCMake\r\nGit\r\nClean Code\r\nDesign Patterns\r\nTDD\r\nMILE WIDZIANE\r\nSTL\r\nPython\r\nLinux\r\nCI/CD\r\nSYSTEM OPERACYJNY\r\nWindows\r\nLinux\r\nO projekcie\r\nJesteśmy maniakami lotnictwa i nowych technologii, dlatego musisz się spodziewać, że pewnie i Ciebie zarazimy swoimi pasjami. Stworzyliśmy drona własnego projektu i produkcji, którego ciągle staramy się udoskonalać.\r\nZajmujemy się projektami związanymi z tworzeniem innowacyjnego systemu monitorowania ruchu drogowego z drona oraz oprogramowaniem dla komputerów pokładowych, w których będziemy chcieli abyś nam pomógł.\r\nSą to projekty, w którym na pewno będziesz miał okazję poznać najświeższe techniki oraz zaimplementować je w realnym produkcie. Na tym stanowisku będziesz odpowiedzialny za tworzenie systemu sterowania dronem oraz głowic obserwacyjnych.\r\nWymagamy załączenia do aplikacji portfolio w formie repozytorium Github lub innej.\r\nTwój zakres obowiązków\r\nTworzenie oprogramowania;\r\nTDD;\r\nReview kodu;\r\nTworzenie dokumentacji.\r\nNasze wymagania\r\nC++\r\nClean Code\r\nDesign Patterns\r\nTDD\r\nCMake\r\nGit\r\nAngielski (B2)\r\nMile widziane\r\n\r\nSTL\r\nLinux\r\nPython\r\nCI/CD",
+    "city": 5,
+    "language": 5,
+    "timestamp": "2023-01-31"
+  }
+}
+]

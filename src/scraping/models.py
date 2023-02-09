@@ -1,3 +1,4 @@
+import jsonfield as jsonfield
 from django.db import models
 
 from scraping.utils import from_cyrillic_to_eng
@@ -68,3 +69,9 @@ class Vacancies(models.Model):
     # переопределяем метод
     def __str__(self):
         return self.title
+
+# создадим модель для сохранения ошибок:
+class Error(models.Model):  # наследуемся models.Model
+    timestamp = models.DateField(auto_now_add=True)
+    data = models.JSONField()
+    

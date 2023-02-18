@@ -1,13 +1,14 @@
+{% load static %}
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="icon" href="{% static 'favicon.ico' %}">
     <head>
     <link rel="stylesheet" href="style.css">
     <title>{% block title %}* DCV *{% endblock %}</title>
-
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
 
@@ -15,47 +16,91 @@
     <body>
       <div id="sidebar">
         {% block sidebar %}
-
-<nav class="navbar navbar-expand-lg" style="background-color: #9999FF;" data-bs-theme="dark">
+<div class="container">
+<nav class="navbar navbar-expand-lg" style="background-color: #483B97;" data-bs-theme="dark">
          <!--nav class="navbar navbar-expand-lg bg-body-tertiary data-bs-theme="dark" text-bg-light p-3"-->
             <div class="container-fluid">
-             <a class="navbar-brand" href="#">* DCV *</a>
+             <a class="navbar-brand" href="{% url 'home' %}" id="brand">* SOHO *</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                </li>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#" >Welcome to:</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Country
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
                 </ul>
-              </div>
+                </div>
             </div>
-          </nav>
-
+                <div class="container-fluid">
+                    <a class="navbar-brand" >AI 1.1</a>
+                    <ul class="navbar-nav">
+                {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:logout' %}">Выйти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:update' %}">Настройки</a>
+                    </li>
+                {% else %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:login' %}">Войти</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'accounts:register' %}">Регистрация</a>
+                    </li>
+                {% endif %}
+                </ul>
+                    <form class="d-flex" role="search" action="https://www.google.com/search">
+                        <input class="form-control me-2" type="search" name="q" placeholder="Artificial Intelligence Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+                </div>
+    </nav>
+</div>
 
         {% endblock %}
     </div>
-
+<div class="container">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="info-fill" viewBox="0 0 16 16">
+    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+  </symbol>
+</svg>
+</div>
     <div class="container">
-      {% block content %}{% endblock %}
+        <div class="row">
+            <div class="col-8">
+                {% if messages %}
+
+                    {% for message in messages %}
+                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% else %}
+                        <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                            {{ message }}
+                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        </div>
+                    {% endif %}
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
     </div>
+
+
+
+    {% block content %}{% endblock %}
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

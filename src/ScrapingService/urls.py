@@ -14,11 +14,17 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from scraping.views import home_view
+from django.urls import path, include
+from scraping.views import home_view, list_view, v_detail, VDetail, VList, VCreate, VUpdate, VDelete
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home/', home_view), # привязываем страницу home.html с отображений на ней функции home_view из
+    path('list/', list_view, name='list'),  # Django по имени будет создавать относительные ссылки которые можно вставлять в шаблоны
+    path('accounts/', include(('accounts.urls', 'accounts'))),
+    path('detail/<int:pk>/', VDetail.as_view(), name='detail'),
+    path('create/', VCreate.as_view(), name='create'),
+    path('update/<int:pk>/', VUpdate.as_view(), name='update'),
+    path('delete/<int:pk>/', VDelete.as_view(), name='delete'),
+    path('', home_view, name='home'),  # привязываем страницу home.html с отображений на ней функции home_view из
     # view.py из базы существующих в ней вакансий
 ]

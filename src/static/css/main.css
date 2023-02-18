@@ -1,0 +1,27 @@
+@font-face {
+    font-family: WendyOne;
+    src: url(../fonts/WendyOne-Regular.ttf)
+
+}
+#brand {
+    font-family: WendyOne;
+    color: #FFFFFF;
+}
+a {
+color:#FFFFFF;
+text-decoration:none
+}
+a:active {
+color:#FFFFFF;
+text-decoration:none
+}
+
+a:visited {
+color:#FFFFFF;
+text-decoration:none
+}
+
+a:hover {
+color:#339900;
+text-decoration: none
+}

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import City, Language, Vacancies,Error, Url
+from .models import City, Language, Vacancies, Error, Url
 
 # Register your models here:
 admin.site.register(City)

@@ -1,4 +1,4 @@
-import jsonfield as jsonfield
+import jsonfield
 from django.db import models
 
 from scraping.utils import from_cyrillic_to_eng
@@ -13,12 +13,8 @@ def default_urls():
 # Создаем здесь наши модели:
 # Создаем модель Город:
 class City(models.Model):
-    name = models.CharField(max_length=50,
-                            verbose_name='Название города',
-                            unique=True)
-    slug = models.CharField(max_length=50,
-                            blank=True,
-                            unique=True)
+    name = models.CharField(max_length=50, verbose_name='Название города', unique=True)
+    slug = models.CharField(max_length=50, blank=True, unique=True)
 
     class Meta:
         verbose_name = 'Название города'
@@ -34,14 +30,13 @@ class City(models.Model):
         super().save(*args, **kwargs)
 
 
+
 # Создаем модель Язык программирования:
 class Language(models.Model):
     name = models.CharField(max_length=50,
                             verbose_name='Язык программирования',
                             unique=True)
-    slug = models.CharField(max_length=50,
-                            blank=True,
-                            unique=True)
+    slug = models.CharField(max_length=50, blank=True, unique=True)
 
     class Meta:
         verbose_name = 'Язык программирования'
@@ -55,14 +50,14 @@ class Language(models.Model):
             self.slug = from_cyrillic_to_eng(str(self.name))
         super().save(*args, **kwargs)
 
-
 # Создаем модель Вакансии:
 class Vacancies(models.Model):
     url = models.URLField(unique=True)
-    title = models.CharField(max_length=300, verbose_name='Заголовок вакансии')
-    company = models.CharField(max_length=100, verbose_name='Компания')
+    title = models.CharField(max_length=250, verbose_name='Заголовок вакансии')
+    company = models.CharField(max_length=250, verbose_name='Компания')
     description = models.TextField(verbose_name='Описание вакансии')
-    city = models.ForeignKey('city', on_delete=models.CASCADE, verbose_name='Город')
+    city = models.ForeignKey('City', on_delete=models.CASCADE,
+                             verbose_name='Город', related_name='vacancies')
     language = models.ForeignKey('Language', on_delete=models.CASCADE,
                                  verbose_name='Язык программирования')
     timestamp = models.DateField(auto_now_add=True)
@@ -70,11 +65,10 @@ class Vacancies(models.Model):
     class Meta:
         verbose_name = 'Вакансия'
         verbose_name_plural = 'Вакансии'
+        ordering = ['-timestamp']
 
-    # переопределяем метод
-    def __str__(self):
+    def __str__(self):  # переопределяем метод
         return self.title
-
 
 # Создаем модель Error для сохранения ошибок:
 class Error(models.Model):  # наследуемся от models.Model
@@ -85,23 +79,15 @@ class Error(models.Model):  # наследуемся от models.Model
         verbose_name = 'Ошибку'
         verbose_name_plural = 'Ошибки'
 
-        # переопределяем метод
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(args, kwargs)
-        self.title = None
-
     def __str__(self):
-        return self.title
-
+        return str(self.timestamp)
 
 # Создадим модель в которой будут храниться адреса пар язык програм. и город
 class Url(models.Model):
-    city = models.ForeignKey('city', on_delete=models.CASCADE, verbose_name='Город')
-    language = models.ForeignKey('Language', on_delete=models.CASCADE,
-                                 verbose_name='Язык программирования')
-    urls_data = jsonfield.JSONField(default='default_urls')
+    city = models.ForeignKey('City', on_delete=models.CASCADE, verbose_name='Город')
+    language = models.ForeignKey('Language', on_delete=models.CASCADE, verbose_name='Язык программирования')
+    url_data = models.JSONField(default=default_urls)
 
     class Meta:
-        # чтобы избежать случайного вписвния или дублирования делаем уникальными сочетания:
-        unique_together = ("city", "language")
+        unique_together = ("city", "language") # чтобы избежать случайного вписвния или дублирования делаем уникальными сочетания, после этого добавляния
+            # мы не сможем вписать уникального сочетания больше чем одна строка:

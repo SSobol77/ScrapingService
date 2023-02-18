@@ -9,13 +9,13 @@
 <div class="container">
 {% if object_list %}
 
- <h3 class="my-4 text-center" style="color: #4C0099">Результаты поиска согласно Вашего запроса:</h3>
+ <h4 class="my-4 text-center" style="color: #3827A9">Результаты поиска согласно Вашего запроса:</h4>
     {% for obj in  object_list %}
         <div class="card my-3 FFE5CC text-emphasis-warning" style="background-color: #F7F2FF; color: #003366" >
-          <h5 class="card-header" style="background-color: #6659B9; color: #D9D6F0">{{ obj.title }}</h5>
+          <h6 class="card-header" style="background-color: #6659B9; color: #D9D6F0">{{ obj.title }}</h6>
             <div class="card-body">
-             <p style="color: #7E7B92">Компания : <a href="{{ obj.url }}" style="color: #3827A9; text-decoration: underline" >{{ obj.company }}</a></p>
-             <p>{{obj.city.name }} | {{obj.language.name }} | <small>{{obj.timestamp|date:"d-m-Y" }}</small></p>
+             <p style="color: #404040">Компания : <a href="{{ obj.url }}" style="color: #3827A9; text-decoration: underline" >{{ obj.company }}</a></p>
+             <p style="color: #404040"><small>{{obj.city.name }} | {{obj.language.name }} | {{obj.timestamp|date:"d-m-Y" }}</small></p>
              <p class="card-text">{{ obj.description }}</p>
 
             <a class="btn btn-outline-light my-1 " href="{{obj.url}}" style="color: #6659B9; text-decoration: none" role="button">Подробнее</a>

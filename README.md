@@ -1,4 +1,4 @@
-# The Soho Scraping Service is created as an independent module for collecting data for further analysis and processing for a data science application deployed in the cloud.
+# The Soho Scraping Service is created as an independent module for collecting data for further analysis and processing for a data science application deployed in the Cloud.
 
 This independent scraping module collects data for further analysis and processing as part of a data science application deployed in the cloud. The goal of this module is to gather data from various sources and make it available for use in the data science application, allowing for more accurate and efficient analysis and decision-making.
 
@@ -23,4 +23,4 @@ Soho Scraping Service
 - Django,
 - Bootstrap,
 - Selenium
-...
+...IBM Cloud

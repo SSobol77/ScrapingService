@@ -23,4 +23,5 @@ Soho Scraping Service
 - Django,
 - Bootstrap,
 - Selenium
-...IBM Cloud
+- IBM Cloud
+- DBSQL

@@ -1,0 +1,47 @@
+{%extends "base.html" %}
+
+{% block title %}* DCV * Settings{% endblock %}
+
+{% block content %}
+
+<div class="container" style="display: flex; ">
+<!---------- форма поисковика по базе SearchForm: -------------------------------------------->
+    <div class="container" style="width: 50%">
+
+        <div class="row">
+            <div class="col-md-5" style="width: 60%;"> <!--длинна полей в форме поисковика, чем больше, тем длинее -->
+               <h5 class="col my-3 "  style="color:#7777F9">Настройки пользователя:</h5>
+                <form method="POST" action="">{% csrf_token %}<!-- POST -  передаем параметры  -->
+                    <div class="mb-1 my-3 form-check">
+                        {{ form.as_p }} <!-- тут отрисовываем форму поиска   !!! В шаблонах не вызывается функций со скобочками '()'   -->
+                        <button type="submit" class="btn btn-secondary" style="background-color: #4D4394; color:white">Сохранить</button>
+                    </div>
+                </form>
+                <form method="POST" action="{% url 'accounts:delete' %}">{% csrf_token %}<!-- POST -  передаем delete  -->
+                    <div class="mb-1 my-3 form-check">
+                        <button type="submit" class="btn btn-danger" style="background-color: #B55B94; color:white">Удалиить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container"  style="width: 50%; padding-top: 60px;">
+     <!---------- форма рассылки получите письмо на указанный Вами e-mail------------------------------>
+
+        <div class="col mx-auto" style="width: 100%;">
+            <p >* Если Вы не нашли подходящих вакансий Город-Специальность,
+                Вы можете заполнить форму с желаемым набором Город-Специальностью.
+                После того как необходимые Вам данные будут добавлены Администратором,
+                Вы получите письмо на указанный Вами e-mail.</p>
+        <form method="POST" action="{% url 'accounts:contact' %}">{% csrf_token %}
+            <div class="form-group">
+            {{ form.as_p }}
+            </div>
+        </form>
+        </div>
+
+    </div>
+</div>
+{% endblock %}

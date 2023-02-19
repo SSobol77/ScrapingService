@@ -1,0 +1,20 @@
+{%extends "base.html" %}
+
+{% block title %}* DCV * Register{% endblock %}
+
+{% block content %}
+
+
+
+<div class="container">
+    <!-- форма поисковика по базе SearchForm: -->
+    <div class="row">
+        <div class="col-md-4"> <!--длинна полей в форме поисковика, чем больше, тем длинее -->
+           <h5 class="col my-3 "  style="color:#7777F9">Приветствуем нового пользователя {{ new_user.email }}</h5>
+            <p>Вы зарегистрировались в системе. Теперь вы можете <a style="color:#7777F9"  href="{% url 'accounts:login' %} ">войти.</a></p>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

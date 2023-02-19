@@ -1,0 +1,25 @@
+{%extends "base.html" %}
+
+{% block title %}* DCV * Register{% endblock %}
+
+{% block content %}
+
+
+
+<div class="container">
+    <!-- форма поисковика по базе SearchForm: -->
+    <div class="row">
+        <div class="col-md-4"> <!--длинна полей в форме поисковика, чем больше, тем длинее -->
+           <h5 class="col my-3 "  style="color:#7777F9">Регистрация нового пользователя:</h5>
+            <form method="POST" action="">{% csrf_token %}<!-- POST -  передаем параметры  -->
+                <div class="mb-1 my-3 form-check">
+                    {{ form.as_p }} <!-- тут отрисовываем форму поиска!!! В шаблонах не вызывается функций со скобочками '()'   -->
+                    <button type="submit" class="btn btn-secondary" style="background-color: #4D4394; color:white">Зарегистрироваться</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

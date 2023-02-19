@@ -111,15 +111,15 @@ for job in jobs:
 # если появляются ошибки они будут добавлены в список errors и при его наличии запишем его в базуданных :
 if errors:
     qs = Error.objects.filter(timestamp=dt.date.today())
-    if qs.exists():
+    if qs.exists():  # если кто-то написал
         err = qs.first()
         err.data.update({'errors': errors})
         err.save()
-    else:
+    else:       # если никто не написал
         er = Error(data=f'errors:{errors}').save()
 
 # h = codecs.open('work.txt', 'w', 'utf-8')
 # h.write(str(jobs))
 # h.close()
 ten_days_ago = dt.date.today() - dt.timedelta(10)
-Vacancies.objects.filter(timestamp__lte=ten_days_ago).delete()
+Vacancies.objects.filter(timestamp__lte=ten_days_ago).delete() # выбрать все вакансии которым больше lte чем 10 дней и применить удаление

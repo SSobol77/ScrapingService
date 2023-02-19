@@ -1,0 +1,2444 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-02-05T00:33:24.193Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "s.sobolewski@hotmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-02-05T00:34:02.829Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "s.sobolewski@hotmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-02-09T22:55:33.731Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Middle Python Developer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-02-09T22:55:56.689Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Odoo developer в  ItransitionКиїв, віддалено",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-02-09T22:57:21.955Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "52",
+    "object_repr": "Strong Middle Python Developer (Fintech project)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-02-09T22:59:28.867Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "51",
+    "object_repr": "Middle Python Developer (Fintech project)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-02-09T23:00:26.545Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "50",
+    "object_repr": "Middle Python Developer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-02-09T23:02:20.380Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "49",
+    "object_repr": "Python developer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-02-09T23:03:00.191Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "48",
+    "object_repr": "Python/Django Engineer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-02-09T23:03:45.603Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "47",
+    "object_repr": "Middle-Senior Python/Django Developer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-02-09T23:04:21.591Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "46",
+    "object_repr": "Software Engineer (Python)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-02-09T23:04:57.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "Team/Tech Lead Backend Engineer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-02-09T23:06:21.758Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "44",
+    "object_repr": "Senior Python Developer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-02-09T23:06:58.415Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "43",
+    "object_repr": "Senior Python Engineer$5000-7500",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-02-09T23:07:36.921Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "42",
+    "object_repr": "FullStack Engineer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-02-09T23:08:18.700Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Software Engineer (PHP, NodeJS, Python, Scraping Project)$2000-3000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-02-09T23:08:58.976Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "Senior Python Engineer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-02-09T23:09:45.828Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "Senior Full Stack Developer (Python)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-02-09T23:10:19.650Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "Network engineer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-02-09T23:11:56.133Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Backend (PHP/Python) разработчик",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-02-09T23:12:58.641Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Python Developer в  ZAKAZ.UAКиїв, віддалено",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-02-09T23:14:10.300Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Python-програміст",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-02-09T23:15:48.479Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Python Developer (Middle)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0417\\u0430\\u0433\\u043e\\u043b\\u043e\\u0432\\u043e\\u043a \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\", \"\\u041a\\u043e\\u043c\\u043f\\u0430\\u043d\\u0438\\u044f\", \"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435 \\u0432\\u0430\\u043a\\u0430\\u043d\\u0441\\u0438\\u0438\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-02-10T09:39:20.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "42",
+    "object_repr": "DevOOP",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-02-10T09:41:14.261Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "43",
+    "object_repr": "UI/UX",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-02-10T09:41:37.878Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "43",
+    "object_repr": "UI/UX Designer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u042f\\u0437\\u044b\\u043a \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-02-10T09:42:35.686Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "44",
+    "object_repr": "Data Scientist",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-02-10T09:42:50.562Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "45",
+    "object_repr": "SQL",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-02-10T17:17:25.967Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-02-10T17:17:36.430Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-02-11T20:02:23.207Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-02-11T20:07:46.880Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ssobo77@gmail.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-02-11T20:07:56.996Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ssobo77@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-02-11T20:18:22.216Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "siergej@hotmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-02-11T20:18:35.204Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ssobo77@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Language\", \"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-02-11T20:19:59.906Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ssobo77@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-02-12T23:41:08.125Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "ssobo77@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"City\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-02-13T00:00:22.158Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Urls data\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-02-13T01:05:03.529Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "Url object (1)",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-02-14T23:07:13.627Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "sier12j@hotmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-02-19T00:03:12.789Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2023-02-19",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-02-19T00:03:21.337Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "2023-02-19",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-02-19T00:43:00.168Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": "Senior Java FX (JavaFX) Developer (Edutech / Education project)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-02-19T00:44:53.583Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "54",
+    "object_repr": "Middle С++ Engineer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-02-19T00:49:49.866Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "55",
+    "object_repr": "Senior Android Developer with C/C++",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-02-19T00:52:03.053Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "56",
+    "object_repr": "Senior Java Developer - for candidates who are in Poland already",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-02-19T00:53:05.986Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "17",
+    "object_repr": "Осло",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.068Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "16",
+    "object_repr": "Франкфурт над Майном",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.157Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "15",
+    "object_repr": "Одесса",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.235Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "14",
+    "object_repr": "Прага",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.325Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "11",
+    "object_repr": "Минск",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.413Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "9",
+    "object_repr": "Вена",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.502Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "Вильнюс",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.591Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "Берлин",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2023-02-19T00:53:06.679Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Opole",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2023-02-19T00:55:29.037Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "18",
+    "object_repr": "Польша",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2023-02-19T00:55:56.455Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "19",
+    "object_repr": "Ukraina",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Название города",
+    "content_type": 6,
+    "codename": "add_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Название города",
+    "content_type": 6,
+    "codename": "change_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Название города",
+    "content_type": 6,
+    "codename": "delete_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Название города",
+    "content_type": 6,
+    "codename": "view_city"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Язык программирования",
+    "content_type": 7,
+    "codename": "add_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Язык программирования",
+    "content_type": 7,
+    "codename": "change_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Язык программирования",
+    "content_type": 7,
+    "codename": "delete_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Язык программирования",
+    "content_type": 7,
+    "codename": "view_language"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Вакансия",
+    "content_type": 8,
+    "codename": "add_vacancies"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Вакансия",
+    "content_type": 8,
+    "codename": "change_vacancies"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Вакансия",
+    "content_type": 8,
+    "codename": "delete_vacancies"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Вакансия",
+    "content_type": 8,
+    "codename": "view_vacancies"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add my user",
+    "content_type": 9,
+    "codename": "add_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change my user",
+    "content_type": 9,
+    "codename": "change_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete my user",
+    "content_type": 9,
+    "codename": "delete_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view my user",
+    "content_type": 9,
+    "codename": "view_myuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add error",
+    "content_type": 10,
+    "codename": "add_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change error",
+    "content_type": 10,
+    "codename": "change_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete error",
+    "content_type": 10,
+    "codename": "delete_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view error",
+    "content_type": 10,
+    "codename": "view_error"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add urls",
+    "content_type": 11,
+    "codename": "add_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change urls",
+    "content_type": 11,
+    "codename": "change_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete urls",
+    "content_type": 11,
+    "codename": "delete_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view urls",
+    "content_type": 11,
+    "codename": "view_urls"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add url",
+    "content_type": 11,
+    "codename": "add_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change url",
+    "content_type": 11,
+    "codename": "change_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete url",
+    "content_type": 11,
+    "codename": "delete_url"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view url",
+    "content_type": 11,
+    "codename": "view_url"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "scraping",
+    "model": "city"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "scraping",
+    "model": "language"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "scraping",
+    "model": "vacancies"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "accounts",
+    "model": "myuser"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "scraping",
+    "model": "error"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "scraping",
+    "model": "url"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "329cb28bpgfrmykrhtok9icrjtpt8cs1",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln4v6akzxms3bVNAsiW8qkQd4dIKaB9M_NeIuG2jmlbypymLC5CG3H6HQn5UdpO8h3brUvubZ0nkrsiD7rIoefyvB7u38GIy_itgVUgOEeHFYlIK4g2gwkYivfsSceoDbjqigUA5hpyRsO6aETrqxLvDw6vOHw:1pTpI9:lS6nSPUA21R0XqQjLU_7Qx8N6vHR02_BWtWgHO-u9mM",
+    "expire_date": "2023-03-05T19:24:09.649Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c6h21qdv4zkvdwa8tlshws5grm4rjszb",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlneHSjpOYPlvwQHkC3FSYW4O4mUAtqZee8tUl6XktbOc5pIXIQWp18GGZ9cd0GPXO9NYqvLPIHcE3nYLm-N-HU92r-DknvZ1hhHbbR2DoJGUBYseFDBARIN_pyRNk5xQG0UOfbWGeWRRssmcuAgPl_ltjgV:1pRxRM:qM65EYA92THhkBgLlOpQqfscad-OrubaqftdZEeI2dc",
+    "expire_date": "2023-02-28T15:41:56.186Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "glglqld29kljtrnpbvwctze4q4lpmtk9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSF0eLt07zeQGUCpGkhKuzL-uzTpQrf3nHPfLOC2lrD1vIQ5sTObLDv9joTxmetO0gPrvfHY6rrMxHeFH7Tza0v5dTncv4OCvYwaQAEKK5XPisBLpSchDCVMFk28ESgnZNRIBNIbVN7piBjBDYJDYZ8v6ck3uQ:1pTAFe:uzk2u1g13wNQgcvxyY3nluKsKTBe5Rt22B1iEaBHLr4",
+    "expire_date": "2023-03-03T23:34:50.909Z"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 4,
+  "fields": {
+    "name": "Киев",
+    "slug": "kiev"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 5,
+  "fields": {
+    "name": "Варшава",
+    "slug": "varshava"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 10,
+  "fields": {
+    "name": "Краков",
+    "slug": "krakov"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 12,
+  "fields": {
+    "name": "Гданьск",
+    "slug": "gdansk"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 13,
+  "fields": {
+    "name": "Познань",
+    "slug": "poznan"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 18,
+  "fields": {
+    "name": "Польша",
+    "slug": "poland"
+  }
+},
+{
+  "model": "scraping.city",
+  "pk": 19,
+  "fields": {
+    "name": "Ukraina",
+    "slug": "ukraina"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 3,
+  "fields": {
+    "name": "Java",
+    "slug": "java"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 4,
+  "fields": {
+    "name": "Python",
+    "slug": "python"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 5,
+  "fields": {
+    "name": "C++",
+    "slug": "c++"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 6,
+  "fields": {
+    "name": "Golang",
+    "slug": "golang"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 7,
+  "fields": {
+    "name": "C",
+    "slug": "c"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 8,
+  "fields": {
+    "name": "Fortran",
+    "slug": "fortran"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 9,
+  "fields": {
+    "name": "Ada",
+    "slug": "ada"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 10,
+  "fields": {
+    "name": "Java Script",
+    "slug": "js"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 11,
+  "fields": {
+    "name": "Rust",
+    "slug": "rust"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 12,
+  "fields": {
+    "name": "Ruby",
+    "slug": "ruby"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 13,
+  "fields": {
+    "name": "Solidity",
+    "slug": "solidity"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 14,
+  "fields": {
+    "name": "Assembler",
+    "slug": "asm"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 15,
+  "fields": {
+    "name": "Kotlin",
+    "slug": "kotlin"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 16,
+  "fields": {
+    "name": "Objective C",
+    "slug": "objc"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 17,
+  "fields": {
+    "name": "Swift",
+    "slug": "swift"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 18,
+  "fields": {
+    "name": "Scala",
+    "slug": "scala"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 19,
+  "fields": {
+    "name": "Curry",
+    "slug": "curry"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 20,
+  "fields": {
+    "name": "Erlang",
+    "slug": "erlang"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 21,
+  "fields": {
+    "name": "Prolog",
+    "slug": "prolog"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 22,
+  "fields": {
+    "name": "Zonnon",
+    "slug": "zonon"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 23,
+  "fields": {
+    "name": "Julia",
+    "slug": "julia"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 24,
+  "fields": {
+    "name": "Component Pascal",
+    "slug": "component pascal"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 25,
+  "fields": {
+    "name": "Haskell",
+    "slug": "haskell"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 26,
+  "fields": {
+    "name": "Mathematica",
+    "slug": "math"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 27,
+  "fields": {
+    "name": "OCaml",
+    "slug": "ocaml"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 28,
+  "fields": {
+    "name": "Cat",
+    "slug": "cat"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 29,
+  "fields": {
+    "name": "Clean",
+    "slug": "clean"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 30,
+  "fields": {
+    "name": "Dylan",
+    "slug": "dylan"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 31,
+  "fields": {
+    "name": "PHP",
+    "slug": "php"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 32,
+  "fields": {
+    "name": "Elm",
+    "slug": "elm"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 33,
+  "fields": {
+    "name": "F#",
+    "slug": "f#"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 34,
+  "fields": {
+    "name": "Hope",
+    "slug": "hope"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 35,
+  "fields": {
+    "name": "J",
+    "slug": "j"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 36,
+  "fields": {
+    "name": "ColdFusion",
+    "slug": "coldfusion"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 37,
+  "fields": {
+    "name": "MATLAB",
+    "slug": "matlab"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 38,
+  "fields": {
+    "name": "Mercury",
+    "slug": "mercury"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 39,
+  "fields": {
+    "name": "C#",
+    "slug": "c#"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 40,
+  "fields": {
+    "name": "Dart",
+    "slug": "dart"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 41,
+  "fields": {
+    "name": "Go!",
+    "slug": "go!"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 42,
+  "fields": {
+    "name": "DevOOP",
+    "slug": "devoop"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 43,
+  "fields": {
+    "name": "UI/UX Designer",
+    "slug": "ui/ux"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 44,
+  "fields": {
+    "name": "Data Scientist",
+    "slug": "data scientist"
+  }
+},
+{
+  "model": "scraping.language",
+  "pk": 45,
+  "fields": {
+    "name": "SQL",
+    "slug": "sql"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 6,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4439154/",
+    "title": "\nРозробник (Python, Full Stack)\n",
+    "company": "Атлас Сервис, ООО",
+    "description": "\n            Полная занятость. Опыт работы от 1 года. Высшее образование.\n                            Наша компанія шукає розробника для роботи у сфері онлайн-продажів. Ви зможете взяти участь у розробці…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 7,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5028331/",
+    "title": "Middle Python Developer",
+    "company": "Wild Wild Leads",
+    "description": "Полная занятость. Опыт работы от 2 лет. Высшее образование.\r\nПривіт! Давай знайомитися!  Мене звати Марія, і я займаюсь тим, що знаходжу крутих спеціалістів в найпрогресивнішу…⁠",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 8,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5005296/",
+    "title": "\nМенеджер з управління товарними запасами (SQL, Python)\n",
+    "company": "Фора, ТОВ",
+    "description": "\n            Полная занятость. Опыт работы от 1 года.\n                            Давайте знайомитись! Ми успішно розвиваємось з 2002 року. Драйв — наш стиль життя, який народжує натхнення…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 9,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5025482/",
+    "title": "\nMiddle/Senior BackEnd developer (Python/Django)\n",
+    "company": "Meest China",
+    "description": "\n            Полная занятость. Опыт работы от 2 лет.\n                            У міжнародну поштово-логістичну компанію «Meest China», яка спеціалізується на доставці e-commerce посилок…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 10,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4460554/",
+    "title": "\nStrong Middle Python developer\n",
+    "company": "Левел99",
+    "description": "\n            Полная занятость. Также готовы взять студента. Опыт работы от 1 года.\n                            Python developer МИ НА ТЕБЕ ЧЕКАЄМО  (можлива віддалена співпраця) По-перше, СЛАВА УКРАЇНІ!  По-друге,…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 11,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4913105/",
+    "title": "\nMiddle Python Developer in Test (Malevich)\n",
+    "company": "Ajax Systems",
+    "description": "\n            Полная занятость. Также готовы взять студента. Опыт работы от 2 лет.\n                            Ajax Systems — розробник і виробник бездротових систем безпеки Ajax із можливостями розумного дому. Це…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 12,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4594079/",
+    "title": "\nPHP/Python-разработчик (Back End)\n",
+    "company": "ВІ-Порт",
+    "description": "\n            Полная занятость. Опыт работы от 2 лет.\n                            Компания «VI•PORT» разработчик собственного проекта облачного видеонаблюдения для развития проекта ищет…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 13,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5015075/",
+    "title": "\nSoftware Engineer (PHP, NodeJS, Python, Scraping Project)\n",
+    "company": "Abz.agency®",
+    "description": "\n            Полная занятость. Опыт работы от 5 лет.\n                            IMPORTANT! Relevant for 9 of February 2023. 1 position vacant. For a Long Term Project we are looking…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 14,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5014291/",
+    "title": "\nPython developer\n",
+    "company": "Traffic Squad",
+    "description": "\n            Полная занятость. Опыт работы от 2 лет. Высшее образование.\n                            Traffic Squad — українська igaming медіабаїнг компанія шукає у свою команду Python developer Основні…⁠\n",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 15,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4592165/",
+    "title": "Backend (PHP/Python) разработчик",
+    "company": "«VI•PORT»",
+    "description": "Полная занятость. Опыт работы от 2 лет. Высшее образование.\r\nКомпания «VI•PORT» разработчик собственного проекта облачного видеонаблюдения для развития проекта ищет…⁠",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 16,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/5026069/",
+    "title": "Python-програміст",
+    "company": "DKF Bud",
+    "description": "Полная занятость. Также готовы взять студента, человека с инвалидностью, ветерана. Опыт работы от 1 года.\r\nВимоги: Знання (хоча б щось із цього) Python, C#, R, BS4, Pandas, MatPlotLib, Dplyr, GGPlot2, Selenium,…⁠",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 17,
+  "fields": {
+    "url": "https://www.work.ua/ru/jobs/4995339/",
+    "title": "Python Developer (Middle)",
+    "company": "Mornhouse",
+    "description": "Полная занятость. Опыт работы от 1 года.\r\n                            Привіт! Ми — Product IT company, робимо додатки на Android та заливаємо їх на Google Play. Шукаємо middle…⁠",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 18,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/nestlogic/vacancies/215175/",
+    "title": "\nPython developer в  Nestlogic\nКиїв, Вінниця, віддалено\n",
+    "company": " Nestlogic",
+    "description": "\n\t\t\t\t\tOur project is a modern multi cloud enterprise application, with heavy use of both kubernetes and AWS, Azure cloud services.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 19,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/privatbank/vacancies/228724/",
+    "title": "\nAnalyst (Python) в  ПриватБанк\nКиїв, віддалено\n",
+    "company": " ПриватБанк",
+    "description": "\n\t\t\t\t\tПриватБанк — є найбільшим банком України та одним з найбільш інноваційних банків світу. Займає лідуючі позиції за всіма фінансовими показниками в галузі та складає близько чверті всієї банківської системи країни.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 20,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/softconstruct-ukraine/vacancies/228713/",
+    "title": "\nHead of Python Engineer в SoftConstruct Ukraine\nКиїв\n",
+    "company": "SoftConstruct Ukraine",
+    "description": "\n\t\t\t\t\tWe sincerely hope that you are alright!\n\nAt this difficult time, we understand that many professionals are now responsible not only for their lives, but also for their families and their safety.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 21,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/sps-ukraine/vacancies/228695/",
+    "title": "\nSoftware Engineer (Python) в  SPS Ukraine\nКиїв, віддалено\n",
+    "company": " SPS Ukraine",
+    "description": "\n\t\t\t\t\tAs a Software Engineer with the Core Data Engineering team, you will design, develop, document, test, and debug existing and new software for our engineering development platform.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 22,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/paxle/vacancies/226472/",
+    "title": "\nMiddle Backend developer (Python) в  PAXLE\nвід $1500\nКиїв, віддалено\n",
+    "company": " PAXLE",
+    "description": "\n\t\t\t\t\tPAXLE is an international group of ADTech product companies. We provide businesses with Performance Marketing solutions.We are looking for a Middle Developer for the high-load data management project (Traffic Tracker).\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 23,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/itransition/vacancies/130788/",
+    "title": "Odoo developer в  ItransitionКиїв, віддалено",
+    "company": "Itransition",
+    "description": "Required skills:\r\n\r\n\r\nConfident knowledge of Python;\r\n\r\n1 year experience with Odoo;\r\n\r\nKnowledge of the architecture of the Odoo framework;\r\n\r\nAbility to deploy Odoo servers, configure nginx;\r\n\r\nExperience with PostgreSQL;\r\n\r\nKnowledge of the basics of HTML, CSS;\r\n\r\nExperience with Github;...",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 24,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/data-science-ua/vacancies/211708/",
+    "title": "\nSenior Backend Developer (Python) в  Data Science UA\nКиїв, віддалено\n",
+    "company": " Data Science UA",
+    "description": "\n\t\t\t\t\tAbout us: \n\nWe are Data Science UA, and we are a fast-growing IT service company. We have been proud of developing Ukraine’s Data Science community for more than 6 years. Data Science UA unites all researchers, engineers, and developers around Data Science and related areas.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 25,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/numerical-technologies-ltd/vacancies/228335/",
+    "title": "\nPython Developer в  Numerical Technologies\nКиїв\n",
+    "company": " Numerical Technologies",
+    "description": "\n\t\t\t\t\tNumerical Technologies is a leading provider of custom software solutions and services specializing in risk, limits, and regulatory capital.Right now, we are looking for a Middle Python Developer to join our team.What will you be doing?\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 26,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/oak-tree-technologies/vacancies/228321/",
+    "title": "\nJunior/Middle Python Developer в  Oak-Tree Technologies\nКиїв\n",
+    "company": " Oak-Tree Technologies",
+    "description": "\n\t\t\t\t\tJoin the team of professional data scientists and web engineers! Oak-Tree Technologies works with impact-first companies from all around the globe, using a data-driven approach and continuously increasing our operational effectiveness.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 27,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/zakaz-ua/vacancies/228278/",
+    "title": "Python Developer в  ZAKAZ.UAКиїв, віддалено",
+    "company": "ZAKAZ.UA",
+    "description": "Корисний продукт, на який саме ти можеш вплинути шляхом покращення.",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 28,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/softconstruct-ukraine/vacancies/224355/",
+    "title": "\nPython Senior/Tech Lead (Tomahawk) в SoftConstruct Ukraine\nКиїв\n",
+    "company": "SoftConstruct Ukraine",
+    "description": "\n\t\t\t\t\tWe sincerely hope that you are alright!At this difficult time, we are receiving many reports of difficulties from some colleagues in the IT industry.We understand that many professionals are now responsible not only for their lives, but also for their families and their safety.SoftConstruct...\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 29,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/eos-data-analytics/vacancies/228238/",
+    "title": "\nPython Developer в  EOS Data Analytics\nКиїв, Дніпро, віддалено\n",
+    "company": " EOS Data Analytics",
+    "description": "\n\t\t\t\t\tEOS Data Analytics — продуктова компанія, яка працює в ніші комерційного космосу, з головним офісом в США і центрами розробки в Україні (Київ, Дніпро).\n\nМи розробляємо і розвиваємо цифрову онлайн-платформу для пошуку, обробки та аналізу великих обсягів супутникових даних.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 30,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/samsung/vacancies/228168/",
+    "title": "\nML/CV Engineer в  Samsung R&D Institute Ukraine\nКиїв\n",
+    "company": " Samsung R&D Institute Ukraine",
+    "description": "\n\t\t\t\t\tSamsung Research and Development Institute Ukraine (SRUKR) is looking for R&D engineer who wants to apply theoretical knowledge and practical skills to solve challenging Computer Vision problems.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 31,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/nortal/vacancies/228104/",
+    "title": "\nSenior Python Full Stack Developer (SK-1084) в  Nortal\nКиїв, Львів, Краків (Польща), віддалено\n",
+    "company": " Nortal",
+    "description": "\n\t\t\t\t\tNortal is on the hunt for a skilled Senior Python Full Stack Developer for long-term and full-time employment! You will be working within a cross-functional team on a fully serverless project that has distributed event-driven architecture.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 32,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/soc-prime-inc/vacancies/228066/",
+    "title": "\nMiddle Back End Developer в  SOC Prime\nКиїв, віддалено\n",
+    "company": " SOC Prime",
+    "description": "\n\t\t\t\t\tResponsibilities:\n\nBack-end developmentBuild solution architectureAd-hoc ETL scripts developmentResearch and work with 3rd parties APIBest Practices: Unit Testing (TDD), Code Review, CI/CD, GitFlowMaintaining high-quality coding standards within the teamContinuous assessment...\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 33,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/apostera/vacancies/228002/",
+    "title": "\nAutomation Test Engineer (Python) в  Apostera UA a Harman company\nКиїв, Одеса, Ужгород, за кордоном, віддалено\n",
+    "company": " Apostera UA a Harman company",
+    "description": "\n\t\t\t\t\tWe at APOSTERA have an open opportunity for an Automation Test Engineer with Python to join our growing HARMAN ADAS SBU team.If you have a prior experience with automation testing from 2 years, creating testing frameworks from scratch and proven skills of Python programming,...\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 34,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/beetroot/vacancies/227982/",
+    "title": "\nSenior Full Stack Engineer (Python) в  Beetroot\nКиїв, Львів, Одеса, Івано-Франківськ, Житомир, Кременчук, Полтава, віддалено\n",
+    "company": " Beetroot",
+    "description": "\n\t\t\t\t\tWe’re looking for a skilled Senior Full-Stack Engineer to join a team of our client and contribute to its success.\n\nBeetroot is a trusted partner for startups and established brands worldwide to solve their software and tech staffing needs.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 35,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/ukrenergo-digital-solutions/vacancies/154212/",
+    "title": "\nMiddle Python developer в  Ukrenergo digital solutions\nКиїв, віддалено\n",
+    "company": " Ukrenergo digital solutions",
+    "description": "\n\t\t\t\t\tМи розробляємо інструменти, з якими «НЕК Укренерго» зможе стати частиною європейського ринку, розвиватиме конкурентний і прозорий ринок у нас, і навіть зможе знизити ціни на електроенергію для споживачів.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 36,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/thewhykingz/vacancies/210657/",
+    "title": "\nMiddle Python Developer в  The WhyKingz\nКиїв, Рига (Латвія), віддалено\n",
+    "company": " The WhyKingz",
+    "description": "\n\t\t\t\t\tМи розширюємося та хочемо запустити для наших клієнтів нові зручні сервіси для зберігання коштів та оплати послуг у криптовалютах на глобальному ринку payments. Шукаємо розробників для розвитку існуючих продуктів та запуску MVP за новими сервісами.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 37,
+  "fields": {
+    "url": "https://jobs.dou.ua/companies/evolve-dev/vacancies/146841/",
+    "title": "\nSenior Python Developer (Django) в  EVOLVE Dev\n$4000–6000\nКиїв, віддалено\n",
+    "company": " EVOLVE Dev",
+    "description": "\n\t\t\t\t\tThe client we offer is the leading online re-commerce provider for books, CDs, DVDs/ Blu-rays, games and clothing in Europe. They offer a fast and easy way for people to sell and purchase pre-owned consumer goods.\n\t\t\t\t",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 38,
+  "fields": {
+    "url": "https://djinni.co/jobs/511222-network-engineer/",
+    "title": "Network engineer",
+    "company": "LanTec",
+    "description": "LanTec company is looking for an experienced Network engineer of experience with equipment (HPE/Aruba/Fortinet/Cisco/Juniper/Huawei).The main objective of our projects is solutions for providing the concept of a smart city.Our company is one of the leading system integrators and suppliers of hardware and software in Ukraine, as well as the developer of our own intelligent video analytics software product - ULA.We are looking for a Network Engineer to join our team.Our candidate:Experience with network equipment (HPE/Aruba/Fortinet/Cisco/Juniper/Huawei);Higher technical education;English (Pre-intermediate);Knowledge and understanding of the basics of building wired and wireless networks, routing technologies, and network security;Experience in the development and implementation of network infrastructure;It will be a plus to have skills in the design and construction of virtual networks in Azure and AWS.Responsibilities:Participation in complex projects;Design and implementation of network solutions based on physical and virtual equipment;Audit, configuration, and troubleshooting of network equipment;Work with vendors of active network equipment and providers of cloud solutions.What we offer:We take care of our employees, in the office, we have a shelter and a generator that ensures continuous operation of the heating and water supply system, the office is warm, and there's light, stable communication, and water;Opportunities for professional development in a stable and transparent organization;Market-level salary, bonuses based on performance evaluation (KPI);Comfortable working conditions and flexible work schedule;Soc. package, insurance;Training and upgrading your skills at the expense of the company;Corporate events and various team-building events; Interested in the vacancy? Submit your CV now.We are waiting for you on our team!  Sincerely,Tatiana, HR managerPhone: 063 879 51 71t.me/Tati_Sergevna \r\n\r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 39,
+  "fields": {
+    "url": "https://djinni.co/jobs/523035-senior-full-stack-developer-python-/",
+    "title": "Senior Full Stack Developer (Python)",
+    "company": "Nortal",
+    "description": "Nortal is on the hunt for a skilled Senior Full Stack Developer with Python and AWS. You will work with a cross-functional team on a fully serverless project with distributed event-driven architecture.About our clientTUI UK is a subsidiary of TUI group, one of the world’s leading leisure travel groups, with over 220 trusted brands in 180 countries and more than 30 million customers. At TUI, they create unforgettable moments for customers across the world and make their dreams come true. With a great history of success, they recognize the power of digital and the massive contribution this brings to creating a truly unique and differentiated customer experience.About the projectTUI is undergoing a crucial digital transformation. What does it mean for the development team? No legacy and only cutting-edge technologies. Not only the tech part of the project is fantastic, but also the internal culture. All team members are granted a high level of power over technical choices and empowerment over business decisions. So why not join this wonderful project? We have modern technologies, international tech experts on board, and indeed – a welcoming team!Mission- As part of an empowered Scrum team, you have a joint responsibility to design, implement and deliver a certain domain of our new platform- Proactively work with your product owner to help shape the direction of the platform Advice on implementing- Front-end best practices (performance, security, maintainability, etc)- Design the architecture for the new system together with architects within the group- Design, implement and maintain Cloud requirements for developmentRequirements- 3+ years of experience with Python/Django- 2+ years of experience with Vue.js (would be a plus)- Experience with CI/CD, preferably Gitlab, Terraform- Experience with implementing and consuming REST endpoints- Experience with AWS (Lambdas, SNS, SQS, DynamoDB)- Experience with Vuetify framework (Flex, Grids, Bootstrap)- Proficiency in HTML5, CSS3/SCSS, as well as general understanding of UI design- Ability to design, build, test, and deploy applications- OOP- Knowledge of DDD would be an advantage- Upper-intermediate level of English- Good communication skills and a proactive / ”can do” attitudeТехнології: Vue2, Python 3.8, Django 4, AWS (Lambda, SQS/SNS, DynamoDB, RDS, Athena), Terraform\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 40,
+  "fields": {
+    "url": "https://djinni.co/jobs/522984-senior-python-engineer/",
+    "title": "Senior Python Engineer",
+    "company": "Surprise",
+    "description": "We’re looking for a Senior Python Engineer - the 4th member of our high-performance Python team whose role is to be a bridge between Data Science and Java teams. You will be involved in implementing microservices for the parts of the system where DS/ML logic would be injected; integrating DS/ML components into our microservices and optimizing the performance of endpoints. What will you be doing?- Creating, defining, and managing build and deployment processes with a focus on process discipline and automation;- Automating existing manual DevOps processes;- Managing and deploying application configuration assets;- Determining environment configurations to support the applications;- Troubleshooting deployment and environmental configuration issues;- Driving toward consistency across all application environments, both in test and production;- Introducing best practices within the DevOps tech stack;- Be responsible for leading the DevOps pipeline across all departments;- Working closely with other Application Development teams, Team Leads, and Product Owners to design and deliver quality software meeting the ongoing operational needs;- Providing the technical ‘glue’ that holds the team together while advising on technical decisions and innovation;- Configuration, development, optimization, and monitoring of our web and service environments;- Completing daily operational checklist to prevent issues or outages and backup servers and their associated operating systems and software.What are we looking for?- 3+ years of demonstrable experience designing and maintaining large VPC deployments in AWS;- 2+ years of experience using a configuration management software – Helm, Terraform, AWS Cloud Formation;- At least 1 year of experience w/ testing automation;- 3+ years of experience practicing DevOps;- 3+ years of Cloud Infrastructure experience (AWS, Azure);- 3+ years developing scripting skills such as: Python, Shell (Bash);- Expert in Jenkins Pipelines, shared libraries;- Strong knowledge of building tools for Java, NodeJS like Gradle, npm;- 3+ years of working with Amazon AWS services, such as EC2, IAM, RDS, S3, EBS, CloudWatch, Lambda, API Gateway;- Cloud and data asset management;- Experience building and running workloads in Kubernetes;- Experience in Identity and Access Management;- DevOps Tooling (Terraform, Terragrunt, Jenkins, Ansible);- Unix/Linux administration and troubleshooting;- Ability to self-organize, managing several concurrent initiatives.What skills will come in handy?- Team player with excellent interpersonal Skills;- Experience building and running workloads in Kubernetes;- Experience working in a gaming company;- Team management experience;- Proven ability to learn fast;- Demonstrated ability to be resourceful and innovative;- AWS Infrastructure certificates, DevOps certifications or any other infrastructure certifications are preferable.Benefits- Ultramodern office in the heart of Lviv (Magnus);- Lunches, snacks, coffee and tea;- 20 working days of paid vacation and Public Holidays of Ukraine;- 15 days of paid sick leave;- Medical Insurance;- Corporate Taxi (from/to office; up to amount);- Parking option;- Hybrid working model (3 days from the office and 2 days from home).\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 41,
+  "fields": {
+    "url": "https://djinni.co/jobs/522848-software-engineer-php-nodejs-python-scraping-/",
+    "title": "Software Engineer (PHP, NodeJS, Python, Scraping Project)$2000-3000",
+    "company": "abz.agency",
+    "description": "IMPORTANT! Relevant for 9 of February 2023. 1 position vacant.For a Long Term Project we are looking for a strong Software Engineer with 5+ years of experience. Project goal is to scrape different websites, as requested by the client. Scraping includes filling forms and solving captcha, as well as avoiding being blocked. More information will be provided during the interview. Only candidates with previous experience in similar project (s) will be considered! You will closely communicate with the client, both communication and technical documentation is only in English (written English required). Interesting project, full freedom in choosing tools and libraries to use to accomplish the task, high responsibility, a lot of work (100% workload). Sounds interesting? Then we are waiting for you!By clicking on the link (company name) in the vacancy header, you can find brief information about our company, video, photos, contacts of the HR manager and a link to our website.Our working conditions- Our offices are well equipped power outages: gasoline generator, EcoFlow Delta portable power station provides electricity for devices and standby lightning, Fiber optic internet provider, Starlink provide access to the internet;- First two weeks will be a paid probation period;- Probation period paid as fixed monthly payment in UAH;- Always stable and on time salary;- Hourly rate is set in $;- Official employment (by contract);- Full work load of 160−200 hours per month and hourly rate ensuring all (extra) hours are paid;- Regular revision of the hourly rate;- Quarterly bonus, project performance based;- English classes 2 times per week (groups of two people, after work hours);- MacBook Pro 13/16, 4K monitor, stand, mouse, keyboard, headphones, comfortable chair, company branded T-shirt and mug;- Working day from 8:00 to 17:00, except special event days (more on that on the interview); (1)- Breakfast, lunches and other things in the kitchen at the expense of the company (coffee, tea, cookies, sweets, yogurts and drinks in the refrigerator);- Work in one of our three offices: 7 minutes from Osokorki metro station or 8 minutes from Lukianivska metro station or 15 minutes from Kontraktova Square metro station / 7 minutes from Taras Shevchenko metro station.Requirements- 5+ years of experience;- Experience in scraping of big websites, you should show us at least 1 such project (2 or more is preferred) in your CV and tell us what exactly you did there;- At least basic knowledge of NodeJS and PHP (languages of the existing codebase, you don’t need to support exist code but you can get some ideas from there);- Experience with relational databases (particularly PostgreSQL) and NoSQL databases (MongoDB, Redis);- Experience in managing infrastructure in the cloud (AWS, GCP, Kubernetes);- Experience working with Git and pull requests;- Understanding basic design patterns and being able to apply them;- Understanding of CI/CD processes.Nice to have- Experience with Puppeteer, Playwright, Selenium or similar automation tools;- Minimal frontend development experience;- Browser extensions development experience;- Out-of-the-box thinking :)Project technology stackCurrent technology stack doesn’t mean you should use the same tools. You have full freedom in choosing language, libraries and tools if you can meet with them goals set by the client. Technologies used in current codebase:- PHP, NodeJS;- PostgreSQL, MongoDB, Redis;- AWS, Kubernetes;- Puppeteer, Playwright, Selenium.Opportunities/benefits- Each employee has a mentor and together with him develops an PDP (Personal Development Plan) to improve skills and knowledge in different areas;- Revision of the hourly rate happens every six months and depends on the implementation of the PDP and other performance indicators;- Opportunity to learn/improve skills in NodeJS, modern frontend frameworks like Vue/React or browser extensions development as part of the PDP (personal development plan) program. Depending on your PDP direction and (if you like to) you can switch later to fullstack developer role, pure frontend developer role or browser extension developer role;- Experienced colleagues ready to help with complex tasks;Technically savvy PMs who do task decomposition and know how to work with both the client and developers. No broken telephone game and no estimates handed down from the top;- Mandatory peer code review and test coverage of important functionality, efficient QA process and task acceptance procedures;- Opportunity to study related areas/technologies (frontend, browser extensions) — not abruptly, but systematically as if working on a complete mini-project; being guided by a mentor and according to a plan drawn up with a mentor, with each task passing code review and QA process, etc.(1) The plan for the day is made at the stand-up meeting and must be accomplished (considering common sense) within the day according to the checkpoints. After accepting the work, the PM finalizes the working day.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 42,
+  "fields": {
+    "url": "https://djinni.co/jobs/522746-fullstack-engineer/",
+    "title": "FullStack Engineer",
+    "company": "Glorium Technologies",
+    "description": "Who we are: Glorium Technologies is an outsourcing company with an HQ in NJ and development centers in Ukraine, Poland, Cyprus. We were founded in 2010 and have already expanded our team to over 180 sharp-minded people. The majority of our projects are within Healthcare and Real Estate domains.Does this relate to you?• 3+ years of Back End experience: Python \\ Go \\ Node• Ability to work till 12:00 MST (21:00 Kyiv time), and attend relevant meetings during that time• Experience with Deno, WebSockets, and fully static deployments• Experience building integration components between various APIs• GitHub repo of your work• A passion for and affinity with the project’s mission to transform healthcare for every trans life• A collaborative team spirit• Familiarity with backend development technologies to assist with our current and future integration needs• Knowledge of complex scripting, debugging, data analysis, problem analysis, and resolution of issues• Ability to define direction and architecture, and take on complex tasks that need a lot of coordination across multiple stakeholders• Ability to take the scope of work delivered by product, break it down into technical components, and create a project plan and estimate for required work• Agile methodology experienceNice to have:• 3+ years of Front End: React \\ React Native• A Cyber Security background• GraphQL, event architecture, Cloud PaaS, Docker, BigQuery• Mobile App Development: Flutter, React, React Native, etc.• DevOps: Terraform and KubernetesAbout the project:This is a trans healthcare project for trans women and trans men. It offers gender-affirming healthcare services in 37 states to anybody between 18 and 65.A new team member will be in charge of:• Supporting application development needs, primarily with our platform integration work• Expertise in backend development to assist with current and future needs around integrations as we move to v4+ of our platform• Working with the team in designing the architecture around our mobile app atop the APIs of our platform components• Working closely with Product Management to ensure the framework meets the requirements defined by customer feedback, product vision, and company direction• Independently resolving blockers by reaching out to appropriate team stakeholdersWhat we offer:• Medical insurance and gym membership to choose• Fully paid English classes with an in-house English teacher• 25 paid days off per year in total• Regular performance reviews• Training and IT certification• Special occasion bonuses (birthday, marriage, childbirth)• Flexible schedule of cooperation with work-from-home or office optionsReady to try your hand? Send your CV without a doubt!\r\n\r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 43,
+  "fields": {
+    "url": "https://djinni.co/jobs/522661-senior-python-engineer/",
+    "title": "Senior Python Engineer$5000-7500",
+    "company": "Razom Software",
+    "description": "WHO WE AREWe are developing an innovative, conversational voice-based AI for the restaurant world.Its first skill is already being deployed at scale: automated order-taking in Quick Service Restaurants (QSRs) where it improves customer experience, increases sales and reduces employee stress.ABOUT THE ROLE- Our backend is developed all in Python running in the cloud over k8s.- It's not a typical backend interacting with a UI frontend. It handles audio streams in real time and runs our key AI algorithms.- The role involves designing and implementing complex parts of the backend. This involves distributed architecture as well as concurrency while taking into consideration performance and scale.We are a group of experts in Conversational AI and Backend SW, solving together unique technological challenges with creative practical, and cutting-edge solutions. We strongly believe in impact-driven employment where you can work from wherever you're most comfortable and effective. Because of the myriad of challenges and the fast pace, each team member gets to experience a lot of professional growth and ownership.WHAT WE'RE LOOKING FOR- A team player, self-managed with a can-do attitude who flourishes in the startup environment- A creative problem solver with a sharp mind- 5+ years of hands-on programming experience in the backend (we are NOT interested in web development)- Experience with complex systems and architecturesREQUIREMENTSWhat we think is a must:- 5+ years experience in Python- Experience in SW design and backend development- Experience in developing and deploying multiple projects used in production- Experience with Docker, Kubernetes, Microservices, CI/CD, Clouds (AWS/GCP/Azure)- BSc in Computer Science or equivalent industry experience- Qualities: Star performer, Team player, Fast, Strong ownership, Passionate about their work, Great communicator.What would be a great bonus:- Being an Architect with deep design experience.- Experience with gRPC, Async IO, AIOHTTP, WebRTC.- Experience with Ansible- Experience with Golang or C or C++.WE OFFER- Ability to influence project technologies- 20 business days of vacation- 5 paid sick leaves per year- 11 Ukrainian public holidays- Fully remote work- Flexible working hours without time trackers- Company accounting support\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 44,
+  "fields": {
+    "url": "https://djinni.co/jobs/522584-senior-python-developer/",
+    "title": "Senior Python Developer",
+    "company": "8allocate",
+    "description": "8allocate is a global provider of end-to-end custom software development solutions to companies all over the globe, from North America to the EU to Israel to Australia.Headquartered in Estonia, we run offshore Research and Developmentcenters in Kyiv and Lviv. Our team is 50% remote and distributed. We specialize in flexible interaction exclusively with international clients (we cover industries from commercial aviation to fintech) thanks to a multinational support group of experts and management.Currently, we are looking for a Senior Python Developer.Project: We are looking for a creative and highly motivated backend Software Engineer to join our growing R&D team to help us shape and build the next generation of metadata- & AI-driven data integration and analytics products. This person will form task forces to prototype, develop, and deliver native cloud XaaS applications, providing strategic innovative and cost-effective solutions.They will play a crucial part in contributing to the roadmap of a scalable AI infrastructure with a web interface and will need to master a wide variety of cutting-edge technologies, working in a semi-autonomous environment.Location requirements: Bulgaria based only.Client team: Poland, Ukraine, Sri Lanka, India.Requirements:— Bachelor's or Master's degree in computer science, information systems, STEM or related;— 5+ years of development, including integration to enterprise software;— 4+ years of experience in development using Python;— 2+ years of experience with AWS or other public clouds - MUST;— Experience with microservice-based architecture and popular middleware;— Good knowledge of application networking and troubleshooting;— Experience with continuous integration and continuous delivery;— Solid knowledge of NoSQL technologies.Would be a plus:— Familiarity with Agile and Jira;— Experience with processing and integration of large, heterogeneous data sources;— Familiarity with semantic and graph technologies (knowledge graphs, taxonomies, ontologies, metadata, schemas, SP ARQL, RDF, property graphs, TinkerPop Gremlin, Cypher, GraphQL, etc.).Responsibilities:— Develop solid unit and integration tests according to organizational standards;— Design and develop quality proficient and well-documented technical solutions that satisfy business requirements and meets corporate architectural standards;— Contribute to and drive technological and architectural decisions;— Collaborates with designers, developers and product owners;— Participate in reviewing design and code for other team members;— Adhere to agile development principles while following and improving all aspects of the scrum process;— Function as a subject matter expert in multiple product components;— Assist peer organizations with activities such as performance, scalability and reliability testing;— Applies usability procedures and principles as defined at a project or product-line levels or through customer input;— Contributes to and supports re-use through common components that are well documented and tested.Why choose us?— “Family and Friends”. We are no longer a start-up, but still, have a family atmosphere in our supportive and spirited team, who are all working together on the same goal.— “Just break down all barriers and find a better way”. Every day you’ll meet with interesting and challenging (international) projects that are covering industries from commercial aviation to fintech (different technologies, different products).— “Hungry for learning”. You will get a lot of chances for career advancement and the development of new skills, opportunities for mentorship, or learning from more experienced colleagues.Benefits from 8allocate:— You’ll work with a supportive and spirited team of professionals.— Corporate events, holidays, and team buildings for your joy.— Training and development: we have a huge library (about 500 books!) and a budget for your professional development.— English classes.— Coverage of sports activities.— People-oriented management without bureaucracy.— Paid vacation and sick leaves.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 45,
+  "fields": {
+    "url": "https://djinni.co/jobs/480484-team-tech-lead-backend-engineer/",
+    "title": "Team/Tech Lead Backend Engineer",
+    "company": "Lyft",
+    "description": "Lyft needs experienced software engineers from a scope of disciplines. Our team has a history of enabling rich and creative features that set the standard for the ride sharing industry. We improve and incorporate technologies that make the lives of our community more enriched. We are looking for expert software engineers to join Assistive and Mapping teams.Assistive transportation is becoming key in Lyft’s strategy for enabling more affordable and reliable rides. We want to make assistive offerings a first class citizen in the application to condition riders to consider planning ahead with Lyft, instead of considering Lyft as an on demand platform only. For example, for specific use cases such as commuting, airport pickups, and general use cases such as social engagements.The Mapping team at Lyft is responsible for the platform that powers our routing and navigation. We are looking for backend server engineers with a passion for building highly scalable systems serving millions of users. You'll collaborate globally with software engineering, product, data science, analytics, and operations on programs that empower us to iterate quickly, delighting our passengers and drivers.Responsibilities:Help establish roadmap and architecture based on technology and our needsWrite well-crafted, well-tested, readable, maintainable codeParticipate in code reviews to ensure code quality and distribute knowledgeShare your knowledge by giving brown bags, tech talks, and promoting appropriate tech and engineering best practicesProvide high-quality of solutions by maintaining the test coverage for the product on an acceptable level according to the Definition of Done criteriaPerforming thoughtful code reviews for colleagues, and help others by conducting high-quality code reviewsParticipate in hiring activities: take part in technical interviews, live coding, share detailed feedback to hiring best technical talent in the functionMentorship, knowledge sharingExperience:6+ years of software engineering industry experienceBe able to support the success of value delivery by enabling the team with the best practices and deep expertise in the concrete domain or technology.Ability to design and implement scalable and reliable software solutionsPassion for new technologies and performing research and development tasksAbility to learn fast, collaborate cross-functionally and communicate effectively.Write clear, scalable and clear design documentationBenefits:Professional and stable working environmentThe latest technology and equipment you needIn addition to 28 observed calendar vacation days all team members have 5 paid days off + company paid recharge daysMedical & Life Insurance18 weeks of paid paternity leave. Biological, adoptive, and foster parents are all eligibleWellness reimbursement\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 46,
+  "fields": {
+    "url": "https://djinni.co/jobs/522339-software-engineer-python-/",
+    "title": "Software Engineer (Python)",
+    "company": "SPS Commerce",
+    "description": "As a Software Engineer with the Core Data Engineering team, you will design, develop, document, test, and debug existing and new software for our engineering development platform. This Senior Software Engineer will serve as a technical expert on development projects with a group of talented and skilled engineers. This position will have the opportunity to work with the SPS Core Data engineering teams in Ukraine and the USWhat Makes the Job Special?When you become part of our team, your job won’t only be to “develop code”. You will also participate in the design, architecture, and development of engineering solutions to solve tough business problems. You will join a team that is developing the SPS Commerce Core Data Platform.Your TeamYour team will be distributed between Ukraine and the US. The current Core Data team is located in one of the SPS offices in the US. We are expanding the development to our development into our Kyiv location. The Core Data team is developing highly reusable, sustainable services that help to increase value, and consistency while decreasing delivery time for our fellow developers. Our primary clients are other SPS technology teams however we desire to expose many of our services to external developers in the future.How We WorkOur daily work is based on DevOps and Scaled Agile practices - TDD, CI/CD, and iterative development processes. There are daily stand-up meetings, sprint planning, reviews, demo sessions, and retrospective meetings. Also, each quarter our team enjoys two Development Days when we can try new tools or technologies.What We Offer• Legal Employment• Continuous learning: technical, soft, and leadership skills; free English language classes; participation in conferences, workshops, and meetups; free access to LinkedIn learning and an internal knowledge database• Daily work in distributed teams and communication with American colleagues• Medical insurance• A sports club membership• Paid sick and maternity/paternity leaves + official days off• 28 vacation days• Flexible schedule• Regular team outings• A cozy office in the center of KyivWhat We Expect of YouThere is an existing Core Data team in our Minneapolis office. We are adding to our engineering staff in our Kyiv office to work with and support our engineering community in Ukraine and the US. We understand full well that our product is a complex mix of Python, Java, and Kotlin and that no one will be a perfect fit. With this in mind, we are willing to teach coach/mentor you and provide you with the support needed to grow fast.Other requirements include:• 3+ years developing in Java or Python• Experience with Docker and configuration management;• Intermediate English.Extra Points For:• Experience with AWS or any other cloud provider infrastructure (Lambda, API Gateway, Kinesis, S3, EC2, DynamoDB, SQS)• Experience with Kotlin• Experience with Kubernetes• Experience in distributed systems\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 47,
+  "fields": {
+    "url": "https://djinni.co/jobs/496348-middle-senior-python-django-developer/",
+    "title": "Middle-Senior Python/Django Developer",
+    "company": ":DTeam",
+    "description": ":DTeam is looking Middle-Senior Python Developer to join our team !Responsibilities:You take responsibility for your work and for yourself. A feature is done when it makes the use of a product a better experience for all users!You will be involved in evaluating different complex technology approaches as well as implementing proof of concept prototypes if they are necessary.You are responsible for the back-end technology stack and engage in technical discussions with the project team.You will discussing feature progress with the project managers.Requirements:- 4+ years of commercial experience with Python and Django- understands RESTful APIs and knows how to build APIs- knowledge of HTML/CSS/JavaScript- has experience with Docker, Redis, MongoDB, RabbitMQ, AWS- speaks English at the Intermediate level and aboveProject: Document management system (Web/Mobile)Ideal Start: ASAPDuration: 6 Months Minimum\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 48,
+  "fields": {
+    "url": "https://djinni.co/jobs/473617-python-django-engineer/",
+    "title": "Python/Django Engineer",
+    "company": "Intobi",
+    "description": "Hey guys 👋We’re Intobi - a software development company, located in Kyiv 🇺🇦Our main specialization is Web & Mobile applications + UI/UX Design.We’re looking for a success-driven Python/Django Engineer.Full-Time, Long-Term position.About the project:Our Australian client is building a Real Estate app for the US market. The backend is done on Python/Django and needs debugging and improvements for the stability of the app on both iOS and Android. Requirements:— at least 3 years of commercial experience with Python/Django;— English upper-intermediate;— experience with Celery for at least 3 years;— experience with Django rest framework at least 3 years;— Strong knowledge of Docker;— Strong knowledge of Jira and BitBacket;— experience with Azure. Will be a plus:— Experience with AWS;— Design a solution structure;— Working with Agile & Scrum methodologies.What we offer:— Competitive salary;— Paid vacation and sick leaves;— Paid day off (Ukrainian holidays);— Ability to work from our cozy office;— 8 hours working day, 5 days a week;— Career growth potential;— Friendly team and corporate events.Please send your CV here or via email.Should the first stage be successfully completed, you’ll be invited to a personal interview.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 49,
+  "fields": {
+    "url": "https://djinni.co/jobs/172969-python-developer/",
+    "title": "Python developer",
+    "company": "NestLogic",
+    "description": "Requirements:*good knowledge and experience with Python 3*good understanding of software development process*familiarity with docker containers*understanding of some environment - Linux, Kubernetes, some public cloudWould be a plus:*familiarity with cloud services and cloud deployment processes (CloudFormation / Terraform)*Kubernetes*experience with Jupyter Notebooks*experience and understanding of databases and data pipelines - big plus Tasks:*design and development parts of the system in form of microservices*automated of deployment processes*integration with ML models We offer:*flexible working schedule*medical insurance*free English classes*working with latest cutting-edge technologies*great career development opportunities in a growing company*internal training in data engineering, data science\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 50,
+  "fields": {
+    "url": "https://djinni.co/jobs/522195-middle-python-developer/",
+    "title": "Middle Python Developer",
+    "company": "inVerita",
+    "description": "Project description:This product is the #1 rated technical hiring platform. The mission of this project is to enable engineering teams to make accurate and fair hiring decisions efficiently. Partnering with innovative companies like Microsoft, Amazon, PayPal and Tesla.Time on Market: Almost 10 years;Country: US, Germany;Team size: VP of Engineering, Team Lead, Technical Lead.Tech Stack: Python/Django, PostgreSQL, Redshift, DynamoDB, PyTest, Docker, AWS.Qualifications:2+ years of working experience with Python/Django;Experience with PostgreSQL, Redshift, DynamoDB, PyTest, Docker;Will be a plus experience with Kubernetes (EKS), Istio, Prometheus stack, AWS, Chef.Upper-Intermediate English level.Duties and responsibilities:Developing reusable, testable, and efficient code using Python Design and implementation of low-latency, high-availability, and performant applications;Testing what you write and contributing to how it runs, is deployed, and scaled in collaboration with the Infrastructure team;Integration of user-facing elements developed by front-end developers with server-side logic Implementation of security and data protection Integration of data storage solutions;Performance tuning, improvement, balancing, usability, automation;Collaboration with the Research and Design Teams in order to understand end user requirements for the implementation of new software features.Benefits and social package:Career and professional development opportunities;Regular performance evaluation and salary revision;Flexible working hours;Remote work opportunities;Certifications and courses financed or co-financed by the company;20 working days of paid vacation per business year and 11 paid Ukrainian official holidays;10 paid sick leaves;The internal mentorship program, corporate training, and events;Opportunities for free continual English courses of all levels;Great team parties, company events, and branded presents;Company legal and accounting support;Comfortable office, equipped with everything you need and round-the-clock access.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 51,
+  "fields": {
+    "url": "https://djinni.co/jobs/522077-middle-python-developer-fintech-project-/",
+    "title": "Middle Python Developer (Fintech project)",
+    "company": "Artkai",
+    "description": "🙋🏻‍♂️ We are looking for a Python Developer who enjoys solving challenging requirements in a scalable fashion both within a team setting as well as on an individual basis.🔵Your skills in finding the right solutions in the project and solving complex tasks will become an auxiliary tool for the team.End-client is in the Energy Trading and management software business.Skills & Experience:✔️Python and if possible other OO programming languages, especially C#DevOps, Docker / Kubernetes, IP networking and cloud technologies;✔️Experience analysing user requirements and data in order to design algorithms, tools and solutions;✔️Web and database development experience – GUI and full-stack development;✔️Experience with trade automation and analytics;✔️Advanced analytical, problem-solving and troubleshooting skills;✔️Experience with agile delivery processes (Scrum, Kanban etc) as well as familiarity with energy trading and risk management would also be a plus.📌Upper-intermediate English and higher.🔝4+ years commercial experience.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 52,
+  "fields": {
+    "url": "https://djinni.co/jobs/522076-strong-middle-python-developer-fintech-projec/",
+    "title": "Strong Middle Python Developer (Fintech project)",
+    "company": "Artkai",
+    "description": "🙋🏻‍♂️ We are looking for a Python Developer who enjoys solving challenging requirements in a scalable fashion both within a team setting as well as on an individual basis.🔵Your skills in finding the right solutions in the project and solving complex tasks will become an auxiliary tool for the team.End-client is in the Energy Trading and management software business.Skills & Experience:✔️Python and if possible other OO programming languages, especially C#DevOps, Docker / Kubernetes, IP networking and cloud technologies;✔️Experience analysing user requirements and data in order to design algorithms, tools and solutions;✔️Web and database development experience – GUI and full-stack development;✔️Experience with trade automation and analytics;✔️Advanced analytical, problem-solving and troubleshooting skills;✔️Experience with agile delivery processes (Scrum, Kanban etc) as well as familiarity with energy trading and risk management would also be a plus.📌Upper-intermediate English and higher.🔝4+ years commercial experience.\r\n      \r\n\r\n\r\n          Read more",
+    "city": 4,
+    "language": 4,
+    "timestamp": "2023-02-09"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 53,
+  "fields": {
+    "url": "https://djinni.co/jobs/526186-senior-java-fx-javafx-developer-edutech-educa/",
+    "title": "Senior Java FX (JavaFX) Developer (Edutech / Education project)",
+    "company": "Artkai Andrii Pashchenko, Recruiter",
+    "description": "🙋🏻‍♂️ We are looking for a Senior Java FX Developer who enjoys solving challenging requirements in a scalable fashion both within a team setting as well as on an individual basis.\r\n🔵Your skills in finding the right solutions in the project and solving complex tasks will become an auxiliary tool for the team.\r\n\r\nYou will work with a desktop application for online training of customers. Modernization/introduction of new functions - the main purpose of the application - is to automatically create Virtual Machines - testing/training environments for customers. More information would be provided during a general conversation with the Java developer.\r\n\r\nSkills & Experience:\r\n✔️Java FX;\r\n✔️Advanced analytical, problem-solving and troubleshooting skills;\r\n✔️Experience with agile delivery processes (Scrum, Kanban etc);\r\n📌Intermediate spoken and written English and higher.",
+    "city": 4,
+    "language": 3,
+    "timestamp": "2023-02-19"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 54,
+  "fields": {
+    "url": "https://djinni.co/jobs/526082-middle-s-engineer/",
+    "title": "Middle С++ Engineer",
+    "company": "Intellias Hanna Ududenko",
+    "description": "Project Overview:\r\nIn cooperation with the dedicated to designing and manufacturing high-quality product Italy based company.\r\nWe are looking for the Infotainment Software Developer is responsible for creating and integrating Application software for infotainment system features such as navigation, radio, media, entertainment, phone, voice, and vehicle settings. The software development is primarily in C, C++.\r\n\r\nResponsibilities:\r\n- Develop C/C++ application, resource, and low-level layer software for the infotainment system\r\n- Integrate APIs that provide services for: media, phone, navigation, and speech–recognition\r\n- Integrate support for mobile devices: Android Auto, Apple CarPlay\r\n- Participate in system design, documentation, and testing\r\n\r\nRequirements:\r\n- 2+ years C/C++ software development experience on embedded platforms\r\n- Experience designing software for infotainment platforms\r\n- Experience with Git\r\n- Automotive product development process and quality experience\r\n\r\nNice to haves:\r\n- Experience with Android Auto and Apple CarPlay\r\n- Experience with Qt\r\n- Excellent written and oral communication skills\r\n- Experience with JIRA / Confluence (User knowledge)\r\n- Skill and capability able to write software fine specification\r\n\r\nWhy this client?\r\nLeader on the top luxury automotive market.\r\n\r\nWhy this team?\r\nDevelopment of new generation infotainment system for automotive\r\n\r\nWhy this technology?\r\nThis technology is used for HMI IVI systems\r\n\r\nWhy Engineer from SS, EPAM, GlobalLogic, etc should apply for this job\r\nSince it is an opportunity to growth professionally",
+    "city": 4,
+    "language": 5,
+    "timestamp": "2023-02-19"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 55,
+  "fields": {
+    "url": "https://chisw.com/",
+    "title": "Senior Android Developer with C/C++",
+    "company": "CHI Software",
+    "description": "Requirements:\r\n\r\nAt least 4+ years of commercial development;\r\nStrong Java/Kotlin;\r\nC/C++ coding skills;\r\nExperience in Android AOSP, HAL, Sensor HAL, AIDL, NDK, Sensor Manager;\r\nBase knowledge of Linux kernel and device tree;\r\nScript language knowledge (Python, bash);\r\nAbility to quickly learn new technologies;\r\nAbility to learn using technical documentation without assistance.\r\nResponsibilities:\r\n\r\nDevelop android application for testing hardware and system services;\r\nReview code and design;\r\nSupport software QA;\r\nHelp identify issues in custom system services.\r\nО компании CHI Software\r\nCHI Software is a software development company with 16 years of experience in the field. We collaborate with enterprises across the globe by delivering cutting-edge technology solutions for startups and medium-sized businesses. With over 600 engineers, we focus on Artificial Intelligence, Big Data, Cloud Computing, IoT, and Web solutions for Finance, Insurance, Real Estate, Retail, Media & Entertainment, and Travel industries. CHI Software is a global software development provider headquartered in Limassol, Republic of Cyprus, with distributed offices in Philadelphia (PA), USA, Kobe, Japan, and Lviv, Ukraine.\r\n\r\nOur development team includes the following departments: web design, JavaScript, .NET, PHP, Ruby, Python, Java, C++, Mobile (Android and iOS), DevOps and QA, and we also have a great team of BI, BA, and Project Managers.\r\n\r\nWe constantly keep up with the current technology trends, developing Big Data, IoT, Machine Learning, Computer Vision, AR/VR, and Cloud (AWS, Azure) solutions.",
+    "city": 4,
+    "language": 7,
+    "timestamp": "2023-02-19"
+  }
+},
+{
+  "model": "scraping.vacancies",
+  "pk": 56,
+  "fields": {
+    "url": "https://career.luxoft.com/locations/ukraine/",
+    "title": "Senior Java Developer - for candidates who are in Poland already",
+    "company": "Luxoft",
+    "description": "This Project is for one of the global investment management firm founded in 1989 that manages approximately $48.3 billion in assets as of March 21, 2021. The firm has more than 2,800 employees with offices in the United States, Europe and Asia.\r\n\r\nProject Description:\r\nThis Project is for one of the global investment management firm founded in 1989 that manages approximately $48.3 billion in assets as of March 21, 2021. The firm has more than 2,800 employees with offices in the United States, Europe and Asia.\r\nAlgo Execution Services Technology team is responsible for developing, enhancing and maintaining internal suite of Algorithmic trading systems. This suite is a core offering that the firm provides to its portfolio management teams to help optimize executions. These trading systems are multi-asset and global in nature and currently live in nearly 50 markets. They are designed and constantly tuned to achieve high throughput and low latency. Team is spread out globally with presence is New York, Miami, London, Belgrade and Singapore.\r\n\r\nYou will:\r\n• Have a of of cross-teams communications in English\r\n• Build the next generation of trading applications and tools (including systematic and quantitative trading)\r\n• Be a key contributor in the design and implementation of the portfolio management infrastructure\r\n• Engage with various technology and data teams within the firm in enabling the above\r\n• Manage technical risks and build prototypes or POCs where needed to validate technical approach\r\n\r\nBecome a part of:\r\n• Mature team with an entrepreneurial culture, where professionalism, ownership, and excellence are highly valued, whilst wholesome work/life balance is maintained.\r\n• Positive, friendly and very supportive environment with open communication and constructive feedback practices.\r\n\r\nBenefits and perks:\r\n• Competitive compensation package and benefits\r\n• Opportunities for career and professional growth\r\n• Global company\r\n• Business-domain specific courses\r\n• Training programs for technical & functional skills\r\n• Onboarding relocation package\r\n• Business trips to NYC, Miami\r\n• Sports and leisure activities\r\n• Informal team events\r\nResponsibilities:\r\nThe successful candidate will join a team and work on several trading and technology driven projects. The job involves constant collaboration with different teams across technology, support, research and business. As part of the role there will be opportunity to work on different technologies such as KDB+, AWS, Containers, different middleware platforms etc. There will also be opportunities to work on profiling tools and performance tuning.\r\n\r\n• Building server side algorithmic trading components in Java/C++\r\n• Working on solving technical challenges like scaling, reducing latencies and automated testing.\r\n• Work on the CI/CD pipelines and dev ops tools.\r\n• Required to be periodically on production support.\r\n• Job may require coding in and/or learning UI technologies.\r\nMandatory Skills Description:\r\n• Bachelor's degree in Computer Science/Mathematics/Physics or related stream.\r\n• Expert level skill in a high level programming language\r\n• Strong experience of working on server-side components.\r\n• Deep understanding of concurrent, multi-threaded application environments.\r\n• Knowledge of Unix/Linux is required.\r\n• Experience using dev tools like GIT, Jenkins, Maven/Gradle and JIRA is required.\r\n• Willing to learn about finance/algorithmic trading and work with new technologies\r\n• Good communication skills.\r\n• AWS or Full Stack experience must\r\nNice-to-Have Skills:\r\n• Experience with any cloud platform and containerization tools is a plus.\r\n• Prior experience building algorithmic trading system or finance is required.\r\n• Knowledge of Kdb+/Q is a big plus.\r\n• Any front-end development experience is a plus.\r\nО компании Luxoft\r\nLuxoft is a high-end application outsourcing provider of choice and a trusted technology advisor to Global 2000 and medium-sized growth companies that apply compelling technologies to obtain leadership positions in their respective markets.\r\nLuxoft today finds the Best talents, proposes career growth & employment benefits. Our teams are involved in high complicity & innovative projects for the Top leaders companies around the Globe.",
+    "city": 5,
+    "language": 3,
+    "timestamp": "2023-02-19"
+  }
+},
+{
+  "model": "scraping.error",
+  "pk": 1,
+  "fields": {
+    "timestamp": "2023-02-19",
+    "data": [
+      {}
+    ]
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$mtimMjt0x3pVyTHc9sKKEx$JWnjfkpS81WTXXmzihI5NB6dzJHh5GCSOZGwelC06Tc=",
+    "last_login": "2023-02-18T23:48:05.460Z",
+    "email": "siergej@hotmail.com",
+    "is_active": true,
+    "is_admin": true,
+    "city": 5,
+    "language": 9,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$3oYLzNEtSWVSLeouGJQ7xg$CXnw3+eUgwaAf41tGrPzAi0Deen6UaMOHtqRywI9Cks=",
+    "last_login": null,
+    "email": "ssobo77@gmail.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": 4,
+    "language": 4,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$hY3g8ZyEVG4C4Hp5iJWAXx$yQxdsyqvsP4OjUFHn6qxUUEn9mcXDRz25adgJOdPP/g=",
+    "last_login": "2023-02-15T02:11:11.255Z",
+    "email": "sdf@qw.pl",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$hpWW0mIVbdOpdBqbm9Zmux$E2cU4LeymsFcR9gKcOIDrGEJNKxKgUFhljS1eydFxqA=",
+    "last_login": "2023-02-17T23:34:50.808Z",
+    "email": "assa@assa.com",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$HlhWj4S1UnnWEJltAGmXyh$T8noO0lKJ7wSeB0gKGZN0osCLZHDCPkZJktWqro0q78=",
+    "last_login": "2023-02-18T19:37:44.562Z",
+    "email": "ass@ass.pl",
+    "is_active": true,
+    "is_admin": false,
+    "city": null,
+    "language": null,
+    "send_email": true
+  }
+},
+{
+  "model": "accounts.myuser",
+  "pk": 23,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$o8HuZEqaNzw6qWERiIUqbZ$JDX4Gyi3ZXI4lH24RDkaN+bJNF45GGYRqBhM4PbMDLA=",
+    "last_login": "2023-02-19T19:24:09.570Z",
+    "email": "ass1@ass.pl",
+    "is_active": true,
+    "is_admin": false,
+    "city": 4,
+    "language": 5,
+    "send_email": true
+  }
+}
+]

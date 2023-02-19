@@ -2,8 +2,14 @@ import os, sys
 import django
 import datetime
 from django.core.mail import EmailMultiAlternatives
-
 from django.contrib.auth import get_user_model
+from scraping.models import Vacancies, Error, Url
+from ScrapingService.settings import (
+    EMAIL_HOST_USER,
+    EMAIL_HOST, EMAIL_HOST_PASSWORD
+)
+
+
 
 #  Устанавливаем абсолютный путь для DJANGO к проекту, т.к. на машине разработчика и на сервере
 #  где будет заинсталлировано разные пути и папки:
@@ -12,19 +18,15 @@ sys.path.append(proj)
 os.environ["DJANGO_SETTINGS_MODULE"] = "ScrapingService.settings"
 
 django.setup()  # запуск Django !!!!!!!!!!!!!!!
-from scraping.models import Vacancies, Error, Url
-from ScrapingService.settings import (
-    EMAIL_HOST_USER,
-    EMAIL_HOST, EMAIL_HOST_PASSWORD
-)
+
 
 ADMIN_USER = EMAIL_HOST_USER
 
-today = datetime.date.today()
+today = datetime.date.today()  # точка - дата отправки письма клиенту
 subject = f"Рассылка вакансий за {today}"  # заголовок письма
 text_content = f"Рассылка вакансий {today}"  # текстовое значение явно не используется
 from_email = EMAIL_HOST_USER   # указываем эмайл с которого будет непосредственно происходить отправка
-empty = '<h4> Сегодня обновления отсутствуют.</h4>'
+empty = '<h5> Сегодня обновления отсутствуют.</h5>'
 
 
 User = get_user_model()
@@ -38,7 +40,7 @@ if users_dct:
     for pair in users_dct.keys():
         params['city_id__in'].append(pair[0])
         params['language_id__in'].append(pair[1])
-    qs = Vacancies.objects.filter(**params, timestamp=today).values()
+    qs = Vacancies.objects.filter(**params, timestamp=today).values()[:10]  # ???????????**********
     vacancies = {}
     for i in qs:
         vacancies.setdefault((i['city_id'], i['language_id']), [])
@@ -47,9 +49,9 @@ if users_dct:
         rows = vacancies.get(keys, [])
         html = ''  # шаблончик
         for row in rows:   # сформируем текст эмайла
-            html += f'<h3"><a href="{ row["url"] }">{ row["title"] }</a></h3>'
-            html += f'<p>{row["description"]} </p>'
-            html += f'<p>{row["company"]} </p><br><hr>'
+            html += f'<h6"><a href="{ row["url"] }">{ row["title"] }</a></h6>'
+            html += f'<p>{row["description"]}</p>'
+            html += f'<p>{row["company"]}</p><br><hr>'
         _html = html if html else empty
         for email in emails:   # отправляем эмайл:
             to = email
@@ -59,7 +61,7 @@ if users_dct:
             msg.attach_alternative(_html, "text/html")
             msg.send()
 
-# отбор ошибок:
+# отбор ошибок: _________________________________________________________________________________
 qs = Error.objects.filter(timestamp=today)
 subject = ''
 text_content = ''
@@ -91,13 +93,33 @@ for keys in users_dct.keys():  # есть ли ключ из словаря с �
 if urls_err:
     subject += ' Отсутствующие urls '
     _html += '<hr>'
-    _html += '<h2>Отсутствующие urls </h2>'
+    _html += '<h5>Отсутствующие urls</h5>'
     _html += urls_err
 
 if subject:
     msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
     msg.attach_alternative(_html, "text/html")
     msg.send()
+
+
+# #------------------------------------------------------------------------------------------------
+# qs = Error.objects.filter(timestamp=today)
+# if qs.exists():
+#     error = qs.first()
+#     data = error.data
+#     _html = ''
+#     for i in data:
+#         _html += f'<p><a href="{i["url"]}">Error: {i["title"]}</a></p>'
+#     subject = f"Ошибки скрапинга {today}"
+#     text_content = f"Ошибки скрапинга"
+#     to = ADMIN_USER
+#     msg = EmailMultiAlternatives(
+#         subject, text_content, from_email, [to]
+#     )
+#     msg.attach_alternative(_html, "text/html")
+#     msg.send()
+
+# Альтернативный метод с помощью библиотеки smtplib, как альтернатива email-Django:
 
 # import smtplib
 # from email.mime.multipart import MIMEMultipart

@@ -1,4 +1,8 @@
 {% load static %}
+{% url 'accounts:update' as update_url %}
+{% url 'accounts:register' as register_url %}
+{% url 'accounts:login' as login_url %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -20,7 +24,7 @@
 <nav class="navbar navbar-expand-lg" style="background-color: #483B97;" data-bs-theme="dark">
          <!--nav class="navbar navbar-expand-lg bg-body-tertiary data-bs-theme="dark" text-bg-light p-3"-->
             <div class="container-fluid">
-             <a class="navbar-brand" href="{% url 'home' %}" id="brand">* SOHO *</a>
+             <a class="navbar-brand" href="{% url 'home' %}" id="brand">* SOHO AI *</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -45,14 +49,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{% url 'accounts:logout' %}">Выйти</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.path == update_url %} active {% endif %}">
                         <a class="nav-link" href="{% url 'accounts:update' %}">Настройки</a>
                     </li>
                 {% else %}
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.path == login_url %} active {% endif %}">
                         <a class="nav-link" href="{% url 'accounts:login' %}">Войти</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {% if request.path == register_url %} active {% endif %}">
                         <a class="nav-link" href="{% url 'accounts:register' %}">Регистрация</a>
                     </li>
                 {% endif %}
@@ -78,19 +82,18 @@
         <div class="row">
             <div class="col-8">
                 {% if messages %}
-
                     {% for message in messages %}
-                    {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
-                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                            {{ message }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                    {% else %}
-                        <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                            {{ message }}
-                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                        </div>
-                    {% endif %}
+                        {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+                            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                               <a>{{ message }}</a>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% else %}
+                            <div class="alert alert-primary alert-dismissible fade show" role="alert">
+                               <a> {{ message }} </a>
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endif %}
                     {% endfor %}
                 {% endif %}
             </div>

@@ -1,3 +1,4 @@
+
 from django.contrib import messages
 from django.core.paginator import Paginator
 from django.shortcuts import render, get_object_or_404
@@ -98,11 +99,11 @@ class VUpdate(UpdateView):
     success_url = reverse_lazy('home')
 
 
+
 class VDelete(DeleteView):
     model = Vacancies
     # template_name = 'scraping/delete.html'
     success_url = reverse_lazy('home')
 
     def get(self, request, *args, **kwargs):
-        messages.success(request, 'Запись успешно удалена.')
         return self.post(request, *args, **kwargs)

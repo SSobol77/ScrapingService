@@ -18,13 +18,9 @@ Finally, security should also be a top consideration in the design of the scrapi
 
 In conclusion, the scraping service is a critical component of a data science application deployed in the cloud, providing the necessary data for analysis and decision-making. Careful consideration should be given to legal and ethical considerations, scalability, and security in its design and implementation.
 
-Soho Scraping Service 
+ 
 
-- Django,
-- Bootstrap,
-- Selenium
-- IBM Cloud
-- DBSQL
-## 
-![My Skills](https://skillicons.dev/icons?i=python,django,mysql,selenium)
+## Soho Scraping Service
+
+![My Skills](https://skillicons.dev/icons?i=python,django,selenium,bootstrap,mysql)
 

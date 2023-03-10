@@ -25,3 +25,9 @@ Soho Scraping Service
 - Selenium
 - IBM Cloud
 - DBSQL
+## Some stats
+
+<span>
+<img  height="150px" src="https://github-readme-stats.vercel.app/api/top-langs?username=ssobol77&show_icons=true&locale=en&layout=compact&theme=transparent" alt="ssobol77" /> 
+</span>
+
